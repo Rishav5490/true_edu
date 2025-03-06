@@ -1,0 +1,12 @@
+@import "tailwindcss";
+h1{
+width: 1920px;
+height: 53px;
+justify-content: space-between;
+padding-top: 16px;
+padding-right: 80px;
+padding-bottom: 16px;
+padding-left: 80px;
+background-color: #4B6897;
+text-align: center;
+}
