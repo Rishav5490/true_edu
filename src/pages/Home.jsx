@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/navbar/Navbar'
 import HeroSection from '../components/navbar/HeroSection'
+import Footer from '../components/navbar/Footer'
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
     <div>
        <Navbar />
        <HeroSection />
+       <Footer />
     </div>
    
     </>
