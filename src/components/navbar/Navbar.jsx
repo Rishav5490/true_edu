@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
    <nav className='bg-sky-100 text-cyan p-4 flex justify-evenly items-center'>
     <figure>
-        <img src="../src/assets/logo.png" alt="logo" title='TRUE-EDUCATION' />
+        <img src="../../../public/logo.png" alt="logo" title='TRUE-EDUCATION' />
     </figure>
     <div className=''>
     <ul className='flex justify-between items-center gap-8 flex-wrap '>
