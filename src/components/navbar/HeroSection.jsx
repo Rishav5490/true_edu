@@ -266,7 +266,7 @@ const HeroSection = () => {
             {/* Carousel Section */}
             <div className="relative mt-8">
               <div className="flex gap-6 overflow-x-auto scrollbar-hide">
-              <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
+                <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
                       src="../../../public/pic.png"
@@ -276,9 +276,7 @@ const HeroSection = () => {
                     <div>
                       <h3 className="text-lg font-bold">James Anderson</h3>
 
-                      <p className="text-sm text-gray-500">
-                      UI/UX Designer
-                      </p>
+                      <p className="text-sm text-gray-500">UI/UX Designer</p>
                     </div>
                   </div>
 
@@ -318,9 +316,7 @@ const HeroSection = () => {
                     <div>
                       <h3 className="text-lg font-bold">James Anderson</h3>
 
-                      <p className="text-sm text-gray-500">
-                      UI/UX Designer
-                      </p>
+                      <p className="text-sm text-gray-500">UI/UX Designer</p>
                     </div>
                   </div>
 
@@ -345,6 +341,105 @@ const HeroSection = () => {
             </div>
           </div>
         </section>
+
+        {/*Reviews  */}
+        <section className="bg-gray-100 p-8  shadow-md  mx-auto">
+          <h3 className="text-blue-900 font-bold text-lg mb-4">REVIEWS</h3>
+          <h2 className="text-gray-900 text-2xl font-semibold mb-6">
+            What They Say About Us
+          </h2>
+          <div className="  flex gap-4 overflow-x-auto scrollbar-hide ">
+          <div className="bg-white  rounded-lg shadow-lg p-2 text-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300"> 
+            <div className=" bg-red-100  rounded-lg  flex items-center gap-4">
+             
+              <img
+                src="../../../public/pic.png"
+                alt="User Avatar"
+                className="w-12 h-12 rounded-full mr-4"
+              />
+              <h4 className="text-gray-900 font-semibold">James Anderson</h4>
+              <p className="text-gray-500 text-sm">UI/UX Designer</p>
+              </div>
+              
+              <div className="bg-green-100 p-5 rounded-lg shadow-lg mt-5 "> 
+                <h3 className="text-gray-900 font-bold mt-4">
+                  Absolutely Thrilled with My Purchase!
+                </h3>
+                <p className="text-gray-600 text-sm mt-2">
+                  I recently purchased a dining table and chairs from this
+                  store, and I couldn't be happier with the experience. The
+                  quality of the furniture is outstanding—beautifully crafted
+                  and very sturdy. The delivery was prompt, and the assembly
+                  service was efficient and professional. The customer service
+                  team was incredibly helpful and answered all my questions with
+                  patience. I've already recommended this store to friends and
+                  family, and I will definitely be shopping here again. Highly
+                  recommended!
+                </p>
+                </div>
+                </div>
+
+                <div className="bg-white  rounded-lg shadow-lg p-2 text-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300"> 
+            <div className=" bg-red-100  rounded-lg  flex items-center gap-4">
+             
+              <img
+                src="../../../public/pic.png"
+                alt="User Avatar"
+                className="w-12 h-12 rounded-full mr-4"
+              />
+              <h4 className="text-gray-900 font-semibold">James Anderson</h4>
+              <p className="text-gray-500 text-sm">UI/UX Designer</p>
+              </div>
+              
+              <div className="bg-green-100 p-5 rounded-lg shadow-lg mt-5 "> 
+                <h3 className="text-gray-900 font-bold mt-4">
+                  Absolutely Thrilled with My Purchase!
+                </h3>
+                <p className="text-gray-600 text-sm mt-2">
+                  I recently purchased a dining table and chairs from this
+                  store, and I couldn't be happier with the experience. The
+                  quality of the furniture is outstanding—beautifully crafted
+                  and very sturdy. The delivery was prompt, and the assembly
+                  service was efficient and professional. The customer service
+                  team was incredibly helpful and answered all my questions with
+                  patience. I've already recommended this store to friends and
+                  family, and I will definitely be shopping here again. Highly
+                  recommended!
+                </p>
+                </div>
+                </div>
+                <div className="bg-white  rounded-lg shadow-lg p-2 text-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300"> 
+            <div className=" bg-red-100  rounded-lg  flex items-center gap-4">
+             
+              <img
+                src="../../../public/pic.png"
+                alt="User Avatar"
+                className="w-12 h-12 rounded-full mr-4"
+              />
+              <h4 className="text-gray-900 font-semibold">James Anderson</h4>
+              <p className="text-gray-500 text-sm">UI/UX Designer</p>
+              </div>
+              
+              <div className="bg-green-100 p-5 rounded-lg shadow-lg mt-5 "> 
+                <h3 className="text-gray-900 font-bold mt-4">
+                  Absolutely Thrilled with My Purchase!
+                </h3>
+                <p className="text-gray-600 text-sm mt-2">
+                  I recently purchased a dining table and chairs from this
+                  store, and I couldn't be happier with the experience. The
+                  quality of the furniture is outstanding—beautifully crafted
+                  and very sturdy. The delivery was prompt, and the assembly
+                  service was efficient and professional. The customer service
+                  team was incredibly helpful and answered all my questions with
+                  patience. I've already recommended this store to friends and
+                  family, and I will definitely be shopping here again. Highly
+                  recommended!
+                </p>
+                </div>
+                </div>
+                </div> 
+        </section>
+
       </section>
     </>
   );
