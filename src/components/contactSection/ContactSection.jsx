@@ -84,7 +84,7 @@ const ContactSection = () => {
                 className="w-full p-3 mb-3 bg-gray-200 rounded-lg"
                 rows="4"
               ></textarea>
-              <button
+              <button 
                 type="submit"
                 className="w-full mt-2 p-3 bg-blue-900 hover:bg-blue-800 rounded-lg text-white font-bold"
               >

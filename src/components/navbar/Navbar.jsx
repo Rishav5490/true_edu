@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link to="/about">About Us</Link>
         </li> 
         <li  className='hover:bg-blue-300 transition   rounded-lg '>
-          <Link to="/contact">Contact Us</Link>
+          <Link to="/contact">Contact Us</Link> 
         </li>
         </ul>
 
@@ -35,4 +35,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

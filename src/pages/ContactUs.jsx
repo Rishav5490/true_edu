@@ -12,8 +12,8 @@ const ContactUs = () => {
         <ContactSection />
         <Footer />
       
-    </div>
+    </div> 
   )
 }
 
-export default ContactUs
+export default ContactUs;
