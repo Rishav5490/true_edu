@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className=''>
     <ul className='flex justify-between items-center gap-8 flex-wrap '>
         <li className='hover:bg-blue-300 transition   rounded-lg '>
-          <Link to="#">Publish With US</Link>
+          <Link to="/publish">Publish With US</Link>
         </li>
         <li className='hover:bg-blue-300 transition   rounded-lg '>
           <Link to="#">Where to Buy</Link>
@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link to="/about">About Us</Link>
         </li> 
         <li  className='hover:bg-blue-300 transition   rounded-lg '>
-          <Link to="#">Contact Us</Link>
+          <Link to="/contact">Contact Us</Link>
         </li>
         </ul>
 

@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './pages/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
+import PublishWithUs from './pages/PublishWithUs';
+import ContactUs from './pages/ContactUs';
 const App = () => {
   return (
     <>
@@ -14,6 +16,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/layout" element={<Layout />} />
+          <Route path="/publish" element={<PublishWithUs />} /> 
+          <Route path="/contact" element={<ContactUs />} /> 
        
       </Routes>
     </BrowserRouter>

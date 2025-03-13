@@ -1,14 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import AboutSection from '../components/aboutSection/AboutSection'
-import Navbar from '../components/navbar/Navbar'
-import Header from '../components/header/Header'
-import Footer from '../components/navbar/Footer'
 
-const About = () => {
+const Header = () => {
   return (
     <>
-     <div className='bg-blue-900 text-white px-20 py-3'>
+  <div className='bg-blue-900 text-white px-20 py-3'>
       <div className='flex justify-between items-center flex-wrap'>
       <h6 className='uppercase font-normal'> 
 
@@ -17,20 +13,11 @@ const About = () => {
       <Link to="/" className=' border rounded-md capitalize font-light  text-center'>📱 Get App</Link> 
       <Link to="/" className=' border rounded-md capitalize font-light  text-center'>🕸 visit Store</Link> 
       <button  className='border rounded-md capitalize font-light  text-center '> <Link to="/"> 🔙back</Link></button>  
-      
       </div>
       </div>
-      </div>
-    
-    <div>
-      <Navbar />
-      <AboutSection />
-      <Footer />
-
-    </div>
+      </div> 
     </>
-
   )
 }
 
-export default About
+export default Header

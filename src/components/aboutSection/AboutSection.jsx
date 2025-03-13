@@ -143,7 +143,7 @@ const AboutSection = () => {
       </div>
     </section>
 
-    {/* Testimonials */}
+    {/* Expertise */}
     <section className="py-12 px-6 md:px-20 bg-gray-100">
     <h3 className="text-sm text-blue-600 font-semibold mb-4">EXPERTISE</h3>
       <h2 className="text-3xl font-bold  text-gray-900">Why Choose True-Edu?</h2>
