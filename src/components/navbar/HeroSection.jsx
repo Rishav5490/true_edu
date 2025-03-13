@@ -10,6 +10,8 @@ import ctg4 from "../../../public/ctg4.png";
 import ctg5 from "../../../public/ctg5.png";
 import pro from "../../../public/14pro.png";
 import pro2x from "../../../public/14pro2x.png";
+import pic from "../../../public/pic.png";
+import rishi from "../../../public/rishi.jpg";
 
 const HeroSection = () => {
   return (
@@ -269,7 +271,7 @@ const HeroSection = () => {
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
-                      src="../../../public/pic.png"
+                      src={pic}
                       alt="Author- img"
                       className="w-16 h-16 rounded-full mb-4"
                     />
@@ -288,7 +290,7 @@ const HeroSection = () => {
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
-                      src="../../../public/Rishi.jpg"
+                      src={rishi}
                       alt="Author- img"
                       className="w-16 h-16 rounded-full mb-4"
                     />
@@ -309,7 +311,7 @@ const HeroSection = () => {
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
-                      src="../../../public/pic.png"
+                      src={pic}
                       alt="Author- img"
                       className="w-16 h-16 rounded-full mb-4"
                     />

@@ -3,6 +3,12 @@ import { FaBullseye, FaEye, FaCheckCircle } from "react-icons/fa";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaBookReader, FaCloudDownloadAlt, FaSyncAlt } from "react-icons/fa";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import objectAbout from "../../../public/object-about.png";
+import abhishek from "../../../public/Abhishek.png";
+import rishav from "../../../public/Rishav.png";
+import rubel from "../../../public/Rubel.png";
+import pic from "../../../public/pic.png";
+import rishi from "../../../public/Rishi.jpg";
 const AboutSection = () => {
   return (
     <>
@@ -32,7 +38,7 @@ const AboutSection = () => {
       </div>
       <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
         <img
-          src="../../../public/object-about.png"
+          src={objectAbout}
           alt="True-Edu Team"
           className="w-full max-w-md md:max-w-lg"
         />
@@ -99,7 +105,7 @@ const AboutSection = () => {
             className="bg-white rounded-2xl shadow-lg p-6 w-80 flex flex-col items-center"
           >
             <img
-              src="../../../public/Abhishek.png"
+              src={abhishek}
               alt="img-CEO"
               className="w-32 h-32 rounded-full object-cover mb-4"
             />
@@ -114,7 +120,7 @@ const AboutSection = () => {
             className="bg-white rounded-2xl shadow-lg p-6 w-80 flex flex-col items-center"
           >
             <img
-              src="../../../public/Rishav.png"
+              src={rishav}
               alt="img-SD"
               className="w-32 h-32 rounded-full object-cover mb-4"
             />
@@ -129,7 +135,7 @@ const AboutSection = () => {
             className="bg-white rounded-2xl shadow-lg p-6 w-80 flex flex-col items-center"
           >
             <img
-              src="../../../public/Rubel.png"
+              src={rubel}
               alt="img-HOE"
               className="w-32 h-32 rounded-full object-cover mb-4"
             />
@@ -194,7 +200,7 @@ const AboutSection = () => {
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
-                      src="../../../public/pic.png"
+                      src={pic}
                       alt="Author- img"
                       className="w-16 h-16 rounded-full mb-4"
                     />
@@ -213,7 +219,7 @@ const AboutSection = () => {
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
-                      src="../../../public/Rishi.jpg"
+                      src={rishi}
                       alt="Author- img"
                       className="w-16 h-16 rounded-full mb-4"
                     />
@@ -234,7 +240,7 @@ const AboutSection = () => {
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
-                      src="../../../public/pic.png"
+                      src={pic}
                       alt="Author- img"
                       className="w-16 h-16 rounded-full mb-4"
                     />
