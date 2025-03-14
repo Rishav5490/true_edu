@@ -31,17 +31,17 @@ const Footer = () => {
             <h3 className=" text-lg font-semibold">Company</h3>
             <ul className="mt-2 space-y-2">
               <li className="hover:underline cursor-pointer"><Link to="">Where to Buy</Link></li>
-              <li className="hover:underline cursor-pointer">Publish With Us</li>
-              <li className="hover:underline cursor-pointer">About Us</li>
-              <li className="hover:underline cursor-pointer">Our Team</li>
-              <li className="hover:underline cursor-pointer">FAQ's</li>
+              <li className="hover:underline cursor-pointer"><Link to="/publish">Publish With Us</Link></li>
+              <li className="hover:underline cursor-pointer"><Link to="/about">About Us</Link></li>
+              <li className="hover:underline cursor-pointer"><Link to="">Our Team</Link></li>
+              <li className="hover:underline cursor-pointer"><Link to="">FAQ's</Link></li>
             </ul>
           </div>
 
      {/* Right Section */}
 
           <div className="md:w-1/3 mt-6 md:mt-0 text-center md:text-left">
-         <h3 className="text-lg font-semibold">Contact Us</h3>
+         <h3 className="text-lg font-semibold"> <Link to="">Contact Us</Link></h3>
          <div className="text-gray-300 text-sm mt-2">
            <p className="flex items-center justify-center md:justify-start space-x-2">
            <MdCall /> <span>8295-017183</span>
@@ -56,8 +56,8 @@ const Footer = () => {
       <div className="border-t border-gray-500 mt-6 pt-4 text-center text-sm">
         <p>© Copyright 2024, All Rights Reserved by TrueEdu Publications</p>
         <div className="flex justify-center gap-6 mt-2">
-          <span className="hover:underline cursor-pointer">Terms & Conditions</span>
-          <span className="hover:underline cursor-pointer">Privacy Policy</span>
+          <span className="hover:underline cursor-pointer"><Link to="">Terms & Conditions</Link></span>
+          <span className="hover:underline cursor-pointer"><Link to ="/privacy">Privacy Policy</Link></span>
         </div>
       </div>
     </footer>

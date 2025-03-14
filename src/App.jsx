@@ -7,6 +7,7 @@ import About from './pages/About';
 import PublishWithUs from './pages/PublishWithUs';
 import ContactUs from './pages/ContactUs';
 import SignUp from './pages/SignUp';
+import PrivacyPolicy from './components/privacy policy/PrivacyPolicy';
 const App = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/publish" element={<PublishWithUs />} /> 
           <Route path="/contact" element={<ContactUs />} /> 
           <Route path="/signup" element={<SignUp />} />  
+          <Route path="/privacy" element={<PrivacyPolicy />} />
        
       </Routes>
     </BrowserRouter>
