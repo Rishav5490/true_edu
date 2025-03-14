@@ -1,23 +1,18 @@
 import React from 'react'
-import AboutSection from '../components/aboutSection/AboutSection'
-import Navbar from '../components/navbar/Navbar'
 import Header from '../components/header/Header'
+import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/navbar/Footer'
+import PrivacyPolicy from '../components/privacy policy/PrivacyPolicy'
 
-const About = () => {
+const PolicyPrivacy = () => {
   return (
-    <>
-
     <div>
       <Header />
       <Navbar />
-      <AboutSection />
+      <PrivacyPolicy />
       <Footer />
-
     </div>
-    </>
-
   )
 }
 
-export default About
+export default PolicyPrivacy

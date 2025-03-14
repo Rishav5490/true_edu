@@ -1,23 +1,18 @@
 import React from 'react'
-import AboutSection from '../components/aboutSection/AboutSection'
-import Navbar from '../components/navbar/Navbar'
 import Header from '../components/header/Header'
+import Navbar from '../components/navbar/Navbar'
+import OurBooks from '../components/ourbookSection/OurBooks'
 import Footer from '../components/navbar/Footer'
 
-const About = () => {
+const ExploreBooks = () => {
   return (
-    <>
-
     <div>
       <Header />
       <Navbar />
-      <AboutSection />
+      <OurBooks />
       <Footer />
-
     </div>
-    </>
-
   )
 }
 
-export default About
+export default ExploreBooks

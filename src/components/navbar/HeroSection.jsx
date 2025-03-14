@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import hero from "../../../public/OBJECTS.png";
 import book1 from "../../../public/book1.png";
 import book2 from "../../../public/book2.png";
@@ -27,7 +28,7 @@ const HeroSection = () => {
             with every page. Your journey to knowledge and success starts here.
           </p>
           <button className="mt-6 px-6 py-3 bg-blue-900 text-white rounded-lg shadow-xl hover:bg-blue-700 transition">
-            Explore Books →
+            <Link to="/">Explore Books →</Link>
           </button>
         </div>
         <div className=" flex justify-center mt-10 md:mt-0">
