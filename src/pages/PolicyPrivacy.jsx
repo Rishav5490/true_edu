@@ -15,4 +15,4 @@ const PolicyPrivacy = () => {
   )
 }
 
-export default PolicyPrivacy
+export default PolicyPrivacy ;

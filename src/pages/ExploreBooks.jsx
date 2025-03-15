@@ -15,4 +15,4 @@ const ExploreBooks = () => {
   )
 }
 
-export default ExploreBooks
+export default ExploreBooks ;

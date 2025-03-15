@@ -126,4 +126,4 @@ const PublishSection = () => {
   );
 };
 
-export default PublishSection;
+export default PublishSection ;

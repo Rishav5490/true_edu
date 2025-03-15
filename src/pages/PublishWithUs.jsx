@@ -19,4 +19,4 @@ const PublishWithUs = () => {
   )
 }
 
-export default PublishWithUs;
+export default PublishWithUs ;
