@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import hero from "../../../public/OBJECTS.png";
-import book1 from "../../../public/book1.png";
-import book2 from "../../../public/book2.png";
-import book3 from "../../../public/book3.png";
+// import book1 from "../../../public/book1.png";
+// import book2 from "../../../public/book2.png";
+// import book3 from "../../../public/book3.png";
 import ctg1 from "../../../public/ctg1.png";
 import ctg2 from "../../../public/ctg2.png";
 import ctg3 from "../../../public/ctg3.png";
@@ -13,6 +13,26 @@ import pro from "../../../public/14pro.png";
 import pro2x from "../../../public/14pro2x.png";
 import pic from "../../../public/pic.png";
 import rishi from "../../../public/rishi.jpg";
+
+const book = [
+  {
+    id: 1,
+    title: "Electric Generation System",
+    image:"../../../public/book1.png",
+    author: "Dr. Sandeep Kumar",
+  },  {
+    id: 2,  
+    title: "Electrical Machines - 1",
+    image:"../../../public/book2.png",
+    author: "Dr. Nikita Gupta",
+  },  { 
+    id: 3,
+    title: "High Voltage Engineering",
+    image:"../../../public/book3.png",
+    author: "Dr. Nikita Gupta",
+  },  
+
+];
 
 const HeroSection = () => {
   return (
@@ -42,63 +62,47 @@ const HeroSection = () => {
 
       {/* Key Features */}
       <section className="bg-smoke-100 rounded-2xl   shadow-lg m-20  ">
-        <section className="bg-gray-100 rounded-2xl p-8 shadow-lg m-20  ">
-          <div className="max-w-6xl mx-auto p-4 ">
-            <p className="text-blue-900 font-semibold uppercase text-sm">
-              Key Features
+      <section className="bg-gray-100 rounded-2xl shadow-lg mx-6 md:mx-20 p-8">
+      <div className="max-w-6xl mx-auto">
+        <p className="text-blue-900 font-semibold uppercase text-sm">Key Features</p>
+        <h2 className="text-3xl font-bold text-gray-900 mt-2">
+          What Makes Our Books Truly Exceptional
+        </h2>
+        <p className="text-gray-600 max-w-lg mt-4">
+          Transform the way you read with our vast collection of ebooks. From bestsellers to
+          exclusive titles, explore diverse genres designed for every reader.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-6">
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <h3 className="font-semibold text-gray-900">Composition of Our Publications</h3>
+            <p className="text-gray-600 text-sm mt-1">
+              Strictly according to the latest syllabus provided by AICTE & HPTSB.
             </p>
-            <h2 className="text-3xl font-bold text-gray-900 mt-2">
-              What Makes Our Books Truly Exceptional
-            </h2>
-            <div className="flex flex-wrap justify-between mt-4">
-              <p className="text-gray-600 max-w-lg">
-                Transform the way you read with our vast collection of ebooks.
-                From bestsellers to exclusive titles, explore diverse genres
-                designed for every reader.
-              </p>
-            </div>
-            <div className="grid md:grid-cols-4 gap-4 mt-6">
-              <div className="bg-white p-4 rounded-lg shadow-md">
-                <h3 className="font-semibold text-gray-900">
-                  Composition of Our Publications
-                </h3>
-                <p className="text-gray-600 text-sm mt-1">
-                  Strictly according to the latest syllabus provided by AICTE &
-                  HPTSB.
-                </p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-md">
-                <h3 className="font-semibold text-gray-900">
-                  Precisely Crafted and Expertly Designed
-                </h3>
-                <p className="text-gray-600 text-sm mt-1">
-                  Strategically Engineered and Thoroughly Composed.
-                </p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-md">
-                <h3 className="font-semibold text-gray-900">
-                  Comprehensive Methodology
-                </h3>
-                <p className="text-gray-600 text-sm mt-1">
-                  Delivers a holistic and all-encompassing methodology for
-                  engineering.
-                </p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-md">
-                <h3 className="font-semibold text-gray-900">
-                  Essential Concepts for Efficient Review
-                </h3>
-                <p className="text-gray-600 text-sm mt-1">
-                  Key concepts have been emphasized for a swift review of
-                  fundamental points.
-                </p>
-              </div>
-            </div>
           </div>
-        </section>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <h3 className="font-semibold text-gray-900">Precisely Crafted and Expertly Designed</h3>
+            <p className="text-gray-600 text-sm mt-1">
+              Strategically Engineered and Thoroughly Composed.
+            </p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <h3 className="font-semibold text-gray-900">Comprehensive Methodology</h3>
+            <p className="text-gray-600 text-sm mt-1">
+              Delivers a holistic and all-encompassing methodology for engineering.
+            </p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <h3 className="font-semibold text-gray-900">Essential Concepts for Efficient Review</h3>
+            <p className="text-gray-600 text-sm mt-1">
+              Key concepts have been emphasized for a swift review of fundamental points.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
         {/* NewestAdditions */}
-        <section className="p-10">
+        {/* <section className="p-10">
           <div>
             <p className="text-blue-900 font-semibold uppercase text-sm">
               Latest Launches
@@ -142,7 +146,24 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+        {/* updated latest launches */}
+        <section className="p-10">
+      <div>
+        <p className="text-blue-900 font-semibold uppercase text-sm">Latest Launches</p>
+        <h2 className="text-3xl font-bold text-gray-900 mt-2">Newest Additions to Our Collection</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 p-7 bg-gray-100 rounded-xl shadow-md">
+          {book.map((book, index) => (
+            <div key={index} className="bg-white rounded-xl shadow-md p-5">
+              <img src={book.image} alt={book.title} className="w-full h-64 object-cover rounded-lg" />
+              <h3 className="font-semibold text-gray-900 mt-4">{book.title}</h3>
+              <p className="text-gray-600 text-sm">{book.author}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
 
         {/* Our Categories */}
         <div className="p-6">

@@ -1,15 +1,13 @@
 import React from 'react'
-import Header from '../components/header/Header'
+import { Link } from 'react-router-dom'
 import woman from "../../public/woman-object.png"
 
 const SignUp = () => {
   return (
     <>
+   
     <div>
-        <Header />
-        {/* <Navbar /> */}
-    </div>
-    <div>
+      <button className='bg-smoke border rounded-lg'><Link to="/about">Back</Link></button>
       <div className="fixed inset-0 flex items-center justify-center bg-smoke bg-opacity-50">
         <div>
             <img src={woman} alt="woman-object-working" />
@@ -28,8 +26,8 @@ const SignUp = () => {
           <input
             type="tel"
             placeholder="Enter your mobile number"
-            value=""
-            onChange=""
+            // value=""
+            // onChange=""
             className="w-full p-2 outline-none"
           />
         </div>
