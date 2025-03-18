@@ -48,7 +48,7 @@ const HeroSection = () => {
             with every page. Your journey to knowledge and success starts here.
           </p>
           <button className="mt-6 px-4 md:px-6 py-2 md:py-3 bg-blue-900 text-white rounded-lg shadow-xl hover:bg-blue-700 transition">
-            <Link to="/">Explore Books →</Link>
+            <Link to="/ourbooks">Explore Books →</Link>
           </button>
         </div>
         <div className="flex justify-center mt-6 md:mt-0 w-full md:w-1/2">

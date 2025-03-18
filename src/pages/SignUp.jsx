@@ -9,7 +9,7 @@ const SignUp = () => {
     <div>
       <Header />
       <SignupSection />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

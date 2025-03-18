@@ -12,7 +12,7 @@ const Home = () => {
       <div className="bg-blue-900 text-white px-20 py-3">
         <div className="flex justify-between items-center flex-wrap">
           <h6 className="uppercase font-normal">
-            Create a brighter future by turning the pages of <u>Our books</u>{" "}
+            Create a brighter future by turning the pages of <Link to="/ourbooks"><u>Our books</u> </Link>{" "}
             and shape your tomorrow.
           </h6>
           <div  className="capitalize font-light  text-center flex gap-3">
