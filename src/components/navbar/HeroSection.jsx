@@ -37,21 +37,24 @@ const book = [
 const HeroSection = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center justify-between px-50 py-25 bg-blue-50   ">
+      {/* <div className="flex flex-col md:flex-row items-center justify-between px-50 py-25 bg-blue-50   ">
         <div className="md:w-xl text-center md:text-left">
-          <h1 className="text-xl font-bold text-gray-900">
+          <h1 className="text-xl font-bold text-gray-900"> */}
+           <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12 bg-blue-50 text-center md:text-left">
+      <div className="md:w-1/2">
+        <h1 className="text-3xl md:text-3xl font-bold text-gray-900">
             Your Journey, Our Books →
           </h1>
-          <p className="text-gray-600 mt-4">
+          <p className="text-gray-600 mt-5 text-sm md:text-base">
             {" "}
             Empowering students with enriching books. Explore, learn, and thrive
             with every page. Your journey to knowledge and success starts here.
           </p>
-          <button className="mt-6 px-6 py-3 bg-blue-900 text-white rounded-lg shadow-xl hover:bg-blue-700 transition">
+          <button className="mt-6 px-4 md:px-6 py-2 md:py-3 bg-blue-900 text-white rounded-lg shadow-xl hover:bg-blue-700 transition">
             <Link to="/">Explore Books →</Link>
           </button>
         </div>
-        <div className=" flex justify-center mt-10 md:mt-0">
+        <div className="flex justify-center mt-6 md:mt-0 w-full md:w-1/2">
           <img
             src={hero}
             alt="Books Illustration"
@@ -61,9 +64,9 @@ const HeroSection = () => {
       </div>
 
       {/* Key Features */}
-      <section className="bg-smoke-100 rounded-2xl   shadow-lg m-20  ">
-      <section className="bg-gray-100 rounded-2xl shadow-lg mx-6 md:mx-20 p-8">
-      <div className="max-w-6xl mx-auto">
+      <section className="bg-gray-100 rounded-2xl shadow-lg mx-4 md:mx-20 p-6 md:p-8 my-10">
+      <section className="">
+      <div className="max-w-6xl mx-auto text-center">
         <p className="text-blue-900 font-semibold uppercase text-sm">Key Features</p>
         <h2 className="text-3xl font-bold text-gray-900 mt-2">
           What Makes Our Books Truly Exceptional
