@@ -50,7 +50,7 @@ const HeroSection = () => {
             Empowering students with enriching books. Explore, learn, and thrive
             with every page. Your journey to knowledge and success starts here.
           </p>
-          <button className="mt-6 px-4 md:px-6 py-2 md:py-3 bg-blue-900 text-white rounded-lg shadow-xl hover:bg-blue-700 transition">
+          <button className="mt-6 px-4 md:px-6 py-2 md:py-3 bg-blue-600 text-white rounded-lg shadow-xl hover:bg-blue-700 transition">
             <Link to="/">Explore Books →</Link>
           </button>
         </div>
