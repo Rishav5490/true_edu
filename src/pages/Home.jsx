@@ -1,6 +1,7 @@
 import React from "react";
+import { FaMobileAlt} from "react-icons/fa";
+import { SiWebpack } from "react-icons/si";
 import { Link } from "react-router-dom";
-import Header from "../components/header/Header";
 import Navbar from "../components/navbar/Navbar";
 import HeroSection from "../components/navbar/HeroSection";
 import Footer from "../components/navbar/Footer";
@@ -14,13 +15,13 @@ const Home = () => {
             Create a brighter future by turning the pages of <u>Our books</u>{" "}
             and shape your tomorrow.
           </h6>
-          <div>
-            <Link to="/" className="capitalize font-light  text-center">
-              📱 Get App
-            </Link>{" "}
+          <div  className="capitalize font-light  text-center flex gap-3">
+            <Link to="/"  className=" capitalize font-light  items-center flex gap-2 rounded-lg hover:bg-blue-800 transition">
+            <FaMobileAlt /> Get App
+            </Link>
             |
-            <Link to="/" className="capitalize font-light  text-center">
-              🕸 visit Store
+            <Link to="/" className="capitalize font-light   items-center flex gap-2  rounded-lg hover:bg-blue-800 transition ">
+            <SiWebpack /> visit Store
             </Link>
           </div>
         </div>

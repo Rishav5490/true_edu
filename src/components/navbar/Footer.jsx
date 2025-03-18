@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaXTwitter } from "react-icons/fa6";
 import { MdMail, MdCall } from "react-icons/md";
+import { AiTwotoneMail } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -47,7 +48,7 @@ const Footer = () => {
            <MdCall /> <span>8295-017183</span>
           </p>
           <p className="flex items-center justify-center md:justify-start space-x-2 mt-1">
-            <MdMail /> <span>trueedu@info.com</span>
+            <AiTwotoneMail /> <span>trueedu@info.com</span>
           </p>
         </div>
       </div>

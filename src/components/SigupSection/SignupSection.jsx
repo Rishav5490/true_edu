@@ -5,7 +5,7 @@ const SignupSection = () => {
   return (
     <>
       <div>
-      <div className="fixed inset-0 flex items-center justify-center bg-smoke bg-opacity-50">
+      <div className="">
         <div>
             <img src={woman} alt="woman-object-working" />
         </div>

@@ -12,7 +12,7 @@ import OurBooks from '../components/ourbookSection/OurBooks'
 const Layout = () => {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <Navbar />
       <HeroSection />
       <PublishSection />
@@ -21,7 +21,7 @@ const Layout = () => {
       <PrivacyPolicy />
       <OurBooks />
 
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }
