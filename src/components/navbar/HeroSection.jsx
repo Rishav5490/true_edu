@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import hero from "../../../public/OBJECTS.png";
-// import book1 from "../../../public/book1.png";
-// import book2 from "../../../public/book2.png";
-// import book3 from "../../../public/book3.png";
 import ctg1 from "../../../public/ctg1.png";
 import ctg2 from "../../../public/ctg2.png";
 import ctg3 from "../../../public/ctg3.png";
@@ -50,7 +47,7 @@ const HeroSection = () => {
             Empowering students with enriching books. Explore, learn, and thrive
             with every page. Your journey to knowledge and success starts here.
           </p>
-          <button className="mt-6 px-4 md:px-6 py-2 md:py-3 bg-blue-600 text-white rounded-lg shadow-xl hover:bg-blue-700 transition">
+          <button className="mt-6 px-4 md:px-6 py-2 md:py-3 bg-blue-900 text-white rounded-lg shadow-xl hover:bg-blue-700 transition">
             <Link to="/">Explore Books →</Link>
           </button>
         </div>
@@ -66,9 +63,9 @@ const HeroSection = () => {
       {/* Key Features */}
       <section className="bg-gray-100 rounded-2xl shadow-lg mx-4 md:mx-20 p-6 md:p-8 my-10">
       <section className="">
-      <div className="max-w-6xl mx-auto text-center">
-        <p className="text-blue-900 font-semibold uppercase text-sm">Key Features</p>
-        <h2 className="text-3xl font-bold text-gray-900 mt-2">
+      <div className="max-w-6xl mx-auto text">
+        <p className="text-blue-900 font-semibold uppercase text-sm ">Key Features</p>
+        <h2 className="text-3xl font-bold text-gray-900 mt-2 ">
           What Makes Our Books Truly Exceptional
         </h2>
         <p className="text-gray-600 max-w-lg mt-4">
@@ -159,7 +156,7 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 p-7 bg-gray-100 rounded-xl shadow-md">
           {book.map((book, index) => (
             <div key={index} className="bg-white rounded-xl shadow-md p-5">
-              <img src={book.image} alt={book.title} className="w-full h-64 object-cover rounded-lg" />
+              <img src={book.image} alt={book.title} className="w-full h-64 object-contain rounded-lg" />
               <h3 className="font-semibold text-gray-900 mt-4">{book.title}</h3>
               <p className="text-gray-600 text-sm">{book.author}</p>
             </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../../../public/logo.png"
+import logo from "/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +46,7 @@ const Navbar = () => {
   
   {/* Mobile Menu Button */}
   <button
-    className="md:hidden text-blue-800 focus:outline-none"
+    className="md:hidden text-customBlue focus:outline-none"
     onClick={() => setIsOpen(!isOpen)}
   >
     {isOpen ? <X size={28} /> : <Menu size={28} />}
