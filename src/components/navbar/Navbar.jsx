@@ -59,7 +59,7 @@ const Navbar = () => {
         <Link to="/publish">Publish With Us</Link>
       </li>
       <li className="hover:bg-blue-300 transition rounded-lg p-2">
-        <Link to="#">Where to Buy</Link>
+        <Link to="/cart">Where to Buy</Link>
       </li>
       <li className="hover:bg-blue-300 transition rounded-lg p-2">
         <Link to="/about">About Us</Link>
@@ -77,7 +77,7 @@ const Navbar = () => {
       placeholder="🔍 Search Book"
       className="px-3 py-2 border rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
     />
-    <Link to="#">
+    <Link to="/cart">
       <button className="p-2 border rounded-lg bg-blue-900 text-white hover:bg-blue-700 transition">
         🛒
       </button>

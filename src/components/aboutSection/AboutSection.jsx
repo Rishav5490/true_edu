@@ -3,12 +3,12 @@ import { FaBullseye, FaEye, FaCheckCircle } from "react-icons/fa";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaBookReader, FaCloudDownloadAlt, FaSyncAlt } from "react-icons/fa";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import objectAbout from "../../../public/object-about.png";
-import abhishek from "../../../public/Abhishek.png";
-import rishav from "../../../public/Rishav.png";
-import rubel from "../../../public/Rubel.png";
-import pic from "../../../public/pic.png";
-import rishi from "../../../public/Rishi.jpg";
+import objectAbout from "/object-about.png";
+import abhishek from "/Abhishek.png";
+import rishav from "/Rishav.png";
+import rubel from "/Rubel.png";
+import pic from "/pic.png";
+import rishi from "/Rishi.jpg";
 const AboutSection = () => {
   return (
     <>
@@ -261,7 +261,7 @@ const AboutSection = () => {
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
-                      src="../../../public/pic.png"
+                      src="/pic.png"
                       alt="Author- img"
                       className="w-16 h-16 rounded-full mb-4"
                     />
@@ -280,7 +280,7 @@ const AboutSection = () => {
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
-                      src="../../../public/Rishi.jpg"
+                      src="/Rishi.jpg"
                       alt="Author- img"
                       className="w-16 h-16 rounded-full mb-4"
                     />
@@ -301,7 +301,7 @@ const AboutSection = () => {
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
-                      src="../../../public/pic.png"
+                      src="/pic.png"
                       alt="Author- img"
                       className="w-16 h-16 rounded-full mb-4"
                     />

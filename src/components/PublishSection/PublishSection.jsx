@@ -1,5 +1,6 @@
 import React from "react";
-import objpublish from "../../../public/object-publish.png";
+import objpublish from "/object-publish.png";
+import { Link } from "react-router-dom";
 import { FaBookReader, FaCloudDownloadAlt, FaSyncAlt } from "react-icons/fa";
 
 const PublishSection = () => {
@@ -17,7 +18,7 @@ const PublishSection = () => {
             touch. Your voice matters to us!
           </p>
           <button className="mt-8 px-6 py-3 bg-blue-900 text-white rounded-lg shadow-xl hover:bg-blue-700 transition">
-            Contact Us →
+            <Link to="/contact">Contact Us →</Link>
           </button>
         </div>
         <div className=" flex justify-center mt-10 md:mt-0">

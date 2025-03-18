@@ -1,5 +1,5 @@
 import React from 'react'
-import objpolicy from "../../../public/object-policy.png"
+import objpolicy from "/object-policy.png"
 
 const PrivacyPolicy = () => {
   return (

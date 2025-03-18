@@ -1,31 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import hero from "../../../public/OBJECTS.png";
-import ctg1 from "../../../public/ctg1.png";
-import ctg2 from "../../../public/ctg2.png";
-import ctg3 from "../../../public/ctg3.png";
-import ctg4 from "../../../public/ctg4.png";
-import ctg5 from "../../../public/ctg5.png";
-import pro from "../../../public/14pro.png";
-import pro2x from "../../../public/14pro2x.png";
-import pic from "../../../public/pic.png";
-import rishi from "../../../public/rishi.jpg";
+import hero from "/OBJECTS.png";
+import ctg1 from "/ctg1.png";
+import ctg2 from "/ctg2.png";
+import ctg3 from "/ctg3.png";
+import ctg4 from "/ctg4.png";
+import ctg5 from "/ctg5.png";
+import pro from "/14pro.png";
+import pro2x from "/14pro2x.png";
+import pic from "/pic.png";
+import rishi from "/Rishi.jpg";
 
 const book = [
   {
     id: 1,
     title: "Electric Generation System",
-    image:"../../../public/book1.png",
+    image:"/book1.png",
     author: "Dr. Sandeep Kumar",
   },  {
     id: 2,  
     title: "Electrical Machines - 1",
-    image:"../../../public/book2.png",
+    image:"/book2.png",
     author: "Dr. Nikita Gupta",
   },  { 
     id: 3,
     title: "High Voltage Engineering",
-    image:"../../../public/book3.png",
+    image:"/book3.png",
     author: "Dr. Nikita Gupta",
   },  
 
@@ -251,15 +251,15 @@ const HeroSection = () => {
             {/* Buttons */}
             <div className="mt-6 flex gap-4">
               <button className="bg-white text-blue-900 px-4 py-2 rounded-lg flex items-center ">
-                🌐 Web App
+              <Link to="">Web App</Link>🌐 
               </button>
               <button className="bg-white text-blue-900 px-4 py-2 rounded-lg flex items-center">
                 {" "}
-                📱 Playstore
+                <Link to="">Playstore</Link>📱 
               </button>
               <button className="bg-white text-blue-900 px-4 py-2 rounded-lg flex items-center :hover bg-blue-900">
                 {" "}
-                🍎 App Store
+                <Link to="">App Store</Link>🍎 
               </button>
             </div>
           </div>
@@ -268,12 +268,12 @@ const HeroSection = () => {
             <img
               src={pro}
               alt="14Pro"
-              className=" mb-15 px-15 bg-[url(../../../public/14bg1.png)]"
+              className=" mb-15 px-15 bg-[url(/14bg1.png)]"
             />
             <img
               src={pro2x}
               alt="14Pro2x"
-              className="mt-15  px-15 bg-[url(../../../public/14bg2.png)]"
+              className="mt-15  px-15 bg-[url(/14bg2.png)]"
             />
           </div>
         </section>
@@ -376,7 +376,7 @@ const HeroSection = () => {
             <div className="bg-white  rounded-lg shadow-lg p-2 text-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
               <div className=" bg-red-100  rounded-lg  flex items-center gap-4">
                 <img
-                  src="../../../public/pic.png"
+                  src="/pic.png"
                   alt="User Avatar"
                   className="w-12 h-12 rounded-full mr-4"
                 />
@@ -405,7 +405,7 @@ const HeroSection = () => {
             <div className="bg-white  rounded-lg shadow-lg p-2 text-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
               <div className=" bg-red-100  rounded-lg  flex items-center gap-4">
                 <img
-                  src="../../../public/pic.png"
+                  src="/pic.png"
                   alt="User Avatar"
                   className="w-12 h-12 rounded-full mr-4"
                 />
@@ -433,7 +433,7 @@ const HeroSection = () => {
             <div className="bg-white  rounded-lg shadow-lg p-2 text-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
               <div className=" bg-red-100  rounded-lg  flex items-center gap-4">
                 <img
-                  src="../../../public/pic.png"
+                  src="/pic.png"
                   alt="User Avatar"
                   className="w-12 h-12 rounded-full mr-4"
                 />

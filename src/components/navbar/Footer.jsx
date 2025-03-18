@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaLinkedinIn, FaGithub, FaXTwitter } from "react-icons/fa6";
-import { MdMail, MdCall } from "react-icons/md";
+import { MdCall } from "react-icons/md";
 import { AiTwotoneMail } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
@@ -31,7 +31,7 @@ const Footer = () => {
           <div>
             <h3 className=" text-lg font-semibold">Company</h3>
             <ul className="mt-2 space-y-2">
-              <li className="hover:underline cursor-pointer"><Link to="">Where to Buy</Link></li>
+              <li className="hover:underline cursor-pointer"><Link to="/cart">Where to Buy</Link></li>
               <li className="hover:underline cursor-pointer"><Link to="/publish">Publish With Us</Link></li>
               <li className="hover:underline cursor-pointer"><Link to="/about">About Us</Link></li>
               <li className="hover:underline cursor-pointer"><Link to="">Our Team</Link></li>
@@ -42,7 +42,7 @@ const Footer = () => {
      {/* Right Section */}
 
           <div className="md:w-1/3 mt-6 md:mt-0 text-center md:text-left">
-         <h3 className="text-lg font-semibold"> <Link to="">Contact Us</Link></h3>
+         <h3 className="text-lg font-semibold"> <Link to="/contact">Contact Us</Link></h3>
          <div className="text-gray-300 text-sm mt-2">
            <p className="flex items-center justify-center md:justify-start space-x-2">
            <MdCall /> <span>8295-017183</span>

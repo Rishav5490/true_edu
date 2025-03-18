@@ -9,6 +9,9 @@ import ContactUs from './pages/ContactUs';
 import SignUp from './pages/SignUp';
 import PolicyPrivacy from './pages/PolicyPrivacy';
 import ExploreBooks from './pages/ExploreBooks';
+import Cart from './pages/Cart';
+
+
 const App = () => {
   return (
     <>
@@ -22,6 +25,8 @@ const App = () => {
           <Route path="/publish" element={<PublishWithUs />} /> 
           <Route path="/contact" element={<ContactUs />} /> 
           <Route path="/signup" element={<SignUp />} />  
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/policy" element={<PolicyPrivacy />} />
           <Route path="/privacy" element={<PolicyPrivacy />} />
           <Route path="/ourbooks" element={<ExploreBooks />} />
        
