@@ -6,13 +6,13 @@ const CartSection = () => {
       case 1:
         return "Moment of Inertia (M.I.): Definition, M.I. of plane lamina, Radius of gyration, section modulus, and more.";
       case 2:
-        return "Definition of rigid, elastic, and plastic bodies, stress, strain, Hook’s law, and modulus of elasticity.";
+        return "Definition of rigid, elastic, and plastic bodies, stress, strain, Hook's law, and modulus of elasticity.";
       case 3:
         return "Types of supports, loads, and shear force and bending moment relationships.";
       case 4:
         return "Concept and theory of pure bending, assumptions, and bending stresses in beams.";
       case 5:
-        return "Concept of compression member, slenderness ratio, Euler’s theory, and conditions for failure.";
+        return "Concept of compression member, slenderness ratio, Euler's theory, and conditions for failure.";
       default:
         return "Information not available.";
     }
