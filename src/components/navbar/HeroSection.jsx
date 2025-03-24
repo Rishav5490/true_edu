@@ -166,13 +166,15 @@ const HeroSection = () => {
     </section>
 
         {/* Our Categories */}
-        <div className="p-6">
+        
+        {/* <div className="p-6">
           <h2 className="text-xl text-blue-900 font-semibold mb-2">
             OUR CATEGORIES
           </h2>
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
             Pick a Category, Start Reading
           </h1>
+          <marquee behavior="" direction="center">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <img
@@ -230,7 +232,74 @@ const HeroSection = () => {
               </h3>
             </div>
           </div>
-        </div>
+          </marquee>
+        </div> */}
+
+        {/* updated our categories */}
+        <div className="p-6">
+  <h2 className="text-xl text-blue-900 font-semibold mb-2">OUR CATEGORIES</h2>
+  <h1 className="text-3xl font-bold text-gray-900 mb-6 text-center sm:text-left">
+    Pick a Category, Start Reading
+  </h1>
+  <div className="overflow-x-auto">
+    <marquee behavior=" " direction="">
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+      <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-40 sm:w-auto">
+        <img
+          src={ctg1}
+          alt="Applied Science"
+          className="w-full h-40 object-cover rounded-md"
+        />
+        <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
+          Applied Science
+        </h3>
+      </div>
+      <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-40 sm:w-auto">
+        <img
+          src={ctg2}
+          alt="Computer Engineering"
+          className="w-full h-40 object-cover rounded-md"
+        />
+        <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
+          Computer Engineering
+        </h3>
+      </div>
+      <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-40 sm:w-auto">
+        <img
+          src={ctg3}
+          alt="Civil Engineering"
+          className="w-full h-40 object-cover rounded-md"
+        />
+        <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
+          Civil Engineering
+        </h3>
+      </div>
+      <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-40 sm:w-auto">
+        <img
+          src={ctg4}
+          alt="Mechanical Engineering"
+          className="w-full h-40 object-cover rounded-md"
+        />
+        <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
+          Mechanical Engineering
+        </h3>
+      </div>
+      <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-40 sm:w-auto">
+        <img
+          src={ctg5}
+          alt="Electrical Engineering"
+          className="w-full h-40 object-cover rounded-md"
+        />
+        <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
+          Electrical Engineering
+        </h3>
+      </div>
+    </div>
+    </marquee>
+  </div>
+</div>
+
+        
 
         {/* Download our App */}
         <section className="bg-blue-900 text-white px-10  flex flex-col md:flex-row items-center justify-between rounded-lg shadow-lg mt-10 ">
