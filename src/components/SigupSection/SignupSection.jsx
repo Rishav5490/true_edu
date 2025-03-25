@@ -2,7 +2,10 @@ import React, { useState } from 'react'
 import woman from "/woman-object.png";
 
 const SignupSection = () => {
-    const [mobile, setMobile] = useState("");
+    const [mobile, setMobile] = useState({
+
+
+    });
   
     const handleInputChange = (e) => {
       setMobile(e.target.value);
@@ -49,7 +52,8 @@ const SignupSection = () => {
           <input
             type="tel"
             maxLength="10"
-            value={mobile}
+            id='number'
+            value={mobile.number}
             onChange={handleInputChange}
             placeholder="Enter your mobile number"
             className="w-full p-2 outline-none"
