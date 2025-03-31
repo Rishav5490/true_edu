@@ -15,20 +15,21 @@ const book = [
   {
     id: 1,
     title: "Electric Generation System",
-    image:"/book1.png",
+    image: "/book1.png",
     author: "Dr. Sandeep Kumar",
-  },  {
-    id: 2,  
+  },
+  {
+    id: 2,
     title: "Electrical Machines - 1",
-    image:"/book2.png",
+    image: "/book2.png",
     author: "Dr. Nikita Gupta",
-  },  { 
+  },
+  {
     id: 3,
     title: "High Voltage Engineering",
-    image:"/book3.png",
+    image: "/book3.png",
     author: "Dr. Nikita Gupta",
-  },  
-
+  },
 ];
 
 const HeroSection = () => {
@@ -37,9 +38,9 @@ const HeroSection = () => {
       {/* <div className="flex flex-col md:flex-row items-center justify-between px-50 py-25 bg-blue-50   ">
         <div className="md:w-xl text-center md:text-left">
           <h1 className="text-xl font-bold text-gray-900"> */}
-           <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12 bg-blue-50 text-center md:text-left">
-      <div className="md:w-1/2">
-        <h1 className="text-3xl md:text-3xl font-bold text-gray-900">
+      <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12 bg-blue-50 text-center md:text-left">
+        <div className="md:w-1/2">
+          <h1 className="text-3xl md:text-3xl font-bold text-gray-900">
             Your Journey, Our Books →
           </h1>
           <p className="text-gray-600 mt-5 text-sm md:text-base">
@@ -62,44 +63,58 @@ const HeroSection = () => {
 
       {/* Key Features */}
       <section className="bg-gray-100 rounded-2xl shadow-lg mx-4 md:mx-20 p-6 md:p-8 my-10">
-      <section className="">
-      <div className="max-w-6xl mx-auto text">
-        <p className="text-blue-900 font-semibold uppercase text-sm ">Key Features</p>
-        <h2 className="text-3xl font-bold text-gray-900 mt-2 ">
-          What Makes Our Books Truly Exceptional
-        </h2>
-        <p className="text-gray-600 max-w-lg mt-4">
-          Transform the way you read with our vast collection of ebooks. From bestsellers to
-          exclusive titles, explore diverse genres designed for every reader.
-        </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-6">
-          <div className="bg-white p-4 rounded-lg shadow-md">
-            <h3 className="font-semibold text-gray-900">Composition of Our Publications</h3>
-            <p className="text-gray-600 text-sm mt-1">
-              Strictly according to the latest syllabus provided by AICTE & HPTSB.
+        <section className="">
+          <div className="max-w-6xl mx-auto text">
+            <p className="text-blue-900 font-semibold uppercase text-xl ">
+              Key Features
             </p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow-md">
-            <h3 className="font-semibold text-gray-900">Precisely Crafted and Expertly Designed</h3>
-            <p className="text-gray-600 text-sm mt-1">
-              Strategically Engineered and Thoroughly Composed.
+            <h2 className="text-3xl font-bold text-gray-900 mt-5 ">
+              What Makes Our Books Truly Exceptional
+            </h2>
+            <p className="text-gray-700 max-w-lg mt-4">
+              Transform the way you read with our vast collection of ebooks.
+              From bestsellers to exclusive titles, explore diverse genres
+              designed for every reader.
             </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+              <div className="bg-white p-4 rounded-lg shadow-md">
+                <h3 className="font-semibold text-gray-900">
+                  Composition of Our Publications
+                </h3>
+                <p className="text-gray-600 text-sm mt-1">
+                  Strictly according to the latest syllabus provided by AICTE &
+                  HPTSB.
+                </p>
+              </div>
+              <div className="bg-white p-4 rounded-lg shadow-md">
+                <h3 className="font-semibold text-gray-900">
+                  Precisely Crafted and Expertly Designed
+                </h3>
+                <p className="text-gray-600 text-sm mt-1">
+                  Strategically Engineered and Thoroughly Composed.
+                </p>
+              </div>
+              <div className="bg-white p-4 rounded-lg shadow-md">
+                <h3 className="font-semibold text-gray-900">
+                  Comprehensive Methodology
+                </h3>
+                <p className="text-gray-600 text-sm mt-1">
+                  Delivers a holistic and all-encompassing methodology for
+                  engineering.
+                </p>
+              </div>
+              <div className="bg-white p-4 rounded-lg shadow-md">
+                <h3 className="font-semibold text-gray-900">
+                  Essential Concepts for Efficient Review
+                </h3>
+                <p className="text-gray-600 text-sm mt-1">
+                  Key concepts have been emphasized for a swift review of
+                  fundamental points.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="bg-white p-4 rounded-lg shadow-md">
-            <h3 className="font-semibold text-gray-900">Comprehensive Methodology</h3>
-            <p className="text-gray-600 text-sm mt-1">
-              Delivers a holistic and all-encompassing methodology for engineering.
-            </p>
-          </div>
-          <div className="bg-white p-4 rounded-lg shadow-md">
-            <h3 className="font-semibold text-gray-900">Essential Concepts for Efficient Review</h3>
-            <p className="text-gray-600 text-sm mt-1">
-              Key concepts have been emphasized for a swift review of fundamental points.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
         {/* NewestAdditions */}
         {/* <section className="p-10">
@@ -150,220 +165,178 @@ const HeroSection = () => {
 
         {/* updated latest launches */}
         <section className="p-10">
-      <div>
-        <p className="text-blue-900 font-semibold uppercase text-sm">Latest Launches</p>
-        <h2 className="text-3xl font-bold text-gray-900 mt-2">Newest Additions to Our Collection</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 p-7 bg-gray-100 rounded-xl shadow-md">
-          {book.map((book, index) => (
-            <div key={index} className="bg-white rounded-xl shadow-md p-5">
-              <img src={book.image} alt={book.title} className="w-full h-64 object-contain rounded-lg" />
-              <h3 className="font-semibold text-gray-900 mt-4">{book.title}</h3>
-              <p className="text-gray-600 text-sm">{book.author}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+          <div className=" ">
+            <p className="text-blue-900 font-semibold uppercase text-xl">
+              Latest Launches
+            </p>
+            <h2 className="text-3xl font-bold text-gray-900 mt-2  text-3xl">
+              Newest Additions to Our Collection
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 mt-6  bg-gray-100 rounded-xl  ">
+              {book.map((book, index) => (
+                <div key={index} className="bg-white rounded-xl shadow-md p-3">
+                  <img
+                    src={book.image}
+                    loading="lazy"
 
-        {/* Our Categories */}
-        
-        {/* <div className="p-6">
-          <h2 className="text-xl text-blue-900 font-semibold mb-2">
-            OUR CATEGORIES
-          </h2>
-          <h1 className="text-3xl font-bold text-gray-900 mb-6">
-            Pick a Category, Start Reading
-          </h1>
-          <marquee behavior="" direction="center">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <img
-                src={ctg1}
-                alt="image
-          "
-                className="w-full h-40 object-cover rounded-md"
-              />
-              <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
-                Applied Science
-              </h3>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <img
-                src={ctg2}
-                alt="image
-          "
-                className="w-full h-40 object-cover rounded-md"
-              />
-              <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
-                Computer Engineering
-              </h3>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <img
-                src={ctg3}
-                alt="image
-          "
-                className="w-full h-40 object-cover rounded-md"
-              />
-              <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
-                Civil Engineering
-              </h3>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <img
-                src={ctg4}
-                alt="image
-          "
-                className="w-full h-40 object-cover rounded-md"
-              />
-              <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
-                Mechanical Engineering
-              </h3>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <img
-                src={ctg5}
-                alt="image
-          "
-                className="w-full h-40 object-cover rounded-md"
-              />
-              <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
-                Electrical Engineering
-              </h3>
+                    alt={book.title}
+
+                    className="w-screen md:h-64 object-contain rounded-lg"
+                  />
+                  <h3 className="font-semibold text-gray-900 mt-4">
+                    {book.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm">{book.author}</p>
+                </div>
+              ))}
             </div>
           </div>
-          </marquee>
-        </div> */}
+        </section>
 
         {/* updated our categories */}
         <div className="p-6">
-  <h2 className="text-xl text-blue-900 font-semibold mb-2">OUR CATEGORIES</h2>
-  <h1 className="text-3xl font-bold text-gray-900 mb-6 text-center sm:text-left">
-    Pick a Category, Start Reading
-  </h1>
-  <div className="overflow-x-auto">
-    <marquee behavior=" " direction="">
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
-      <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-40 sm:w-auto">
-        <img
-          src={ctg1}
-          alt="Applied Science"
-          className="w-full h-40 object-cover rounded-md"
-        />
-        <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
-          Applied Science
-        </h3>
-      </div>
-      <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-40 sm:w-auto">
-        <img
-          src={ctg2}
-          alt="Computer Engineering"
-          className="w-full h-40 object-cover rounded-md"
-        />
-        <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
-          Computer Engineering
-        </h3>
-      </div>
-      <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-40 sm:w-auto">
-        <img
-          src={ctg3}
-          alt="Civil Engineering"
-          className="w-full h-40 object-cover rounded-md"
-        />
-        <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
-          Civil Engineering
-        </h3>
-      </div>
-      <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-40 sm:w-auto">
-        <img
-          src={ctg4}
-          alt="Mechanical Engineering"
-          className="w-full h-40 object-cover rounded-md"
-        />
-        <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
-          Mechanical Engineering
-        </h3>
-      </div>
-      <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 w-40 sm:w-auto">
-        <img
-          src={ctg5}
-          alt="Electrical Engineering"
-          className="w-full h-40 object-cover rounded-md"
-        />
-        <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
-          Electrical Engineering
-        </h3>
-      </div>
-    </div>
-    </marquee>
-  </div>
-</div>
+          <h2 className="text-xl text-blue-900 font-semibold mb-2">
+            OUR CATEGORIES
+          </h2>
+          <h1 className="text-3xl font-bold text-gray-900 mb-6 text-center items-center ">
+            Pick a Category, Start Reading
+          </h1>
+          <div className="overflow-x-auto">
+            {/* <marquee behavior=" " direction=""> */}
+            <div className="grid grid-cols- xs:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-6 items-center">
+                <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  sm:w-auto">
+                  <img
+                    src={ctg1}
+                    alt="Applied Science"
+                    loading="lazy"
+                    className="w-full h-40 object-cover rounded-md"
+                  />
+                  <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
+                    Applied Science
+                  </h3>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  sm:w-auto">
+                  <img
+                    src={ctg2}
+                    alt="Computer Engineering"
+                    loading="lazy"
 
-        
+                    className="w-full h-40 object-cover rounded-md"
+                  />
+                  <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
+                    Computer Engineering
+                  </h3>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  sm:w-auto">
+                  <img
+                    src={ctg3}
+                    alt="Civil Engineering"
+                    loading="lazy"
+
+                    className="w-full h-40 object-cover rounded-md"
+                  />
+                  <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
+                    Civil Engineering
+                  </h3>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ">
+                  <img
+                    src={ctg4}
+                    alt="Mechanical Engineering"
+                    loading="lazy"
+
+                    className="w-full h-40 object-cover rounded-md"
+                  />
+                  <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
+                    Mechanical Engineering
+                  </h3>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300  sm:w-auto">
+                  <img
+                    src={ctg5}
+                    alt="Electrical Engineering"
+                    loading="lazy"
+
+                    className="w-full h-40 object-cover rounded-md"
+                  />
+                  <h3 className="mt-3 text-lg font-semibold text-gray-700 text-center">
+                    Electrical Engineering
+                  </h3>
+                </div>
+              </div>
+            {/* </marquee> */}
+          </div>
+        </div>
 
         {/* Download our App */}
-        <section className="bg-blue-900 text-white px-10  flex flex-col md:flex-row items-center justify-between rounded-lg shadow-lg mt-10 ">
+        <section className="bg-blue-900 text-white px-10  flex flex-col md:flex-row items-center justify-between rounded-lg shadow-lg mt-15 ">
           {/* Left Side : Text Content */}
-          <div className="md:w-1/2">
-            <h3 className="text-sm font-semibold">DOWNLOAD OUR APP</h3>
-            <h1 className="text-3xl md:text-4xl font-bold mt-2">
+          <div className="md:w-1/2 ">
+            <h3 className="text-xl font-semibold text-blue-100 underline">DOWNLOAD OUR APP</h3>
+            <h1 className="text-sm md:text-xl lg:text-4xl font-bold mt-2">
               Streamline your college studies with our app
             </h1>
-            <p className="text-lg mt-4">
+            <p className="lg:text-lg mt-2">
               {" "}
               Unlock the power of knowledge with our college study book app.
             </p>
-            <p className="font-bold mt-2">
+            <p className="font-bold  md:text-md  lg:text-lg mt-2">
               Lower costs + saved time = enhanced profitability and streamlined
               operations.
             </p>
             {/* Buttons */}
-            <div className="mt-6 flex gap-4">
-              <button className="bg-white text-blue-900 px-4 py-2 rounded-lg flex items-center ">
-              <Link to="">Web App</Link>🌐 
+            <div className="mt-6 grid lg:flex  gap-4">
+              <button className="bg-white text-blue-900 px-4 py-2 rounded-lg  ">
+                <Link to="">Web App</Link>🌐
               </button>
-              <button className="bg-white text-blue-900 px-4 py-2 rounded-lg flex items-center">
+              <button className="bg-white text-blue-900 px-4 py-2 rounded-lg ">
                 {" "}
-                <Link to="">Playstore</Link>📱 
+                <Link to="">Playstore</Link>📱
               </button>
-              <button className="bg-white text-blue-900 px-4 py-2 rounded-lg flex items-center :hover bg-blue-900">
+              <button className="bg-white text-blue-900 px-4 py-2 rounded-lg  :hover bg-blue-900">
                 {" "}
-                <Link to="">App Store</Link>🍎 
+                <Link to="">App Store</Link>🍎
               </button>
             </div>
           </div>
           {/* Right Side : Image */}
-          <div className="flex  justify-center mt-10 sm:mt-0 lg:w-1/2">
+          <div className="  md:grid-cols-1 lg:flex mt-10 sm:mt-0 ">
             <img
               src={pro}
               alt="14Pro"
-              className=" mb-15 px-15 bg-[url(/14bg1.png)]"
+              className=" mb-15 px-10 bg-[url(/14bg1.png)] hover:scale-105 transition-transform duration-300"
             />
             <img
               src={pro2x}
               alt="14Pro2x"
-              className="mt-15  px-15 bg-[url(/14bg2.png)]"
+              className="mt-15  px-10 bg-[url(/14bg2.png)] hover:scale-105 transition-transform duration-300"
             />
           </div>
         </section>
 
-        {/* AuthorCarousel */}
+
+       
+
+
+
+        {/* ------------AuthorCarousel ---------------*/}
         <section className="bg-gray-100 py-12">
           <div className="max-w-5xl mx-auto px-6">
             {/* Section Header */}
-            <h3 className="text-sm text-blue-600 font-semibold">AUTHORS</h3>
+            <h3 className="text-lg text-blue-900 font-semibold">AUTHORS</h3>
             <h2 className="text-3xl font-bold text-gray-900 mt-2">
               Creators of the Collection
             </h2>
 
             {/* Carousel Section */}
-            <div className="relative mt-8">
-              <div className="flex gap-6 overflow-x-auto scrollbar-hide">
+            <div className="relative mt-8 ">
+              <div className="  grid md:grid lg:flex  gap-6  overflow-x-auto scrollbar-hide items-center">
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
                       src={pic}
                       alt="Author- img"
+                      loading="lazy"
                       className="w-16 h-16 rounded-full mb-4"
                     />
                     <div>
@@ -383,6 +356,8 @@ const HeroSection = () => {
                     <img
                       src={rishi}
                       alt="Author- img"
+                      loading="lazy"
+
                       className="w-16 h-16 rounded-full mb-4"
                     />
                     <div>
@@ -404,6 +379,8 @@ const HeroSection = () => {
                     <img
                       src={pic}
                       alt="Author- img"
+                      loading="lazy"
+
                       className="w-16 h-16 rounded-full mb-4"
                     />
                     <div>
@@ -441,7 +418,7 @@ const HeroSection = () => {
           <h2 className="text-gray-900 text-2xl font-semibold mb-6">
             What They Say About Us
           </h2>
-          <div className="  flex gap-4 overflow-x-auto scrollbar-hide ">
+          <div className=" grid md:grid-cols  sm:grid-cols-1 lg:flex gap-4 overflow-x-auto scrollbar-hide ">
             <div className="bg-white  rounded-lg shadow-lg p-2 text-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
               <div className=" bg-red-100  rounded-lg  flex items-center gap-4">
                 <img
@@ -534,12 +511,12 @@ const HeroSection = () => {
         <section>
           <div className=" mx-auto p-10">
             <h3 className="text-blue-900 font-bold text-lg">FAQ'S</h3>
-            <h2 className="text-gray-900 text-2xl font-semibold mb-6 mt-2">   
+            <h2 className="text-gray-900 text-2xl font-semibold mb-6 mt-2">
               Have a question? We're here to help.
             </h2>
-            <div className="space-y-2 px-15 ">
+            <div className=" sm:grid-cols gap-5 ">
               <div className="border-b border-gray-300 py-4 cursor-pointer">
-                <div className="flex justify-between items-center">
+                <div className=" sm:grid flex justify-between items-center">
                   <p className="text-gray-700 font-medium">
                     How long does a Mommy Makeover surgery take?
                   </p>
@@ -573,11 +550,9 @@ const HeroSection = () => {
             </div>
           </div>
         </section>
-
-        
       </section>
     </>
   );
 };
 
-export default HeroSection ;
+export default HeroSection;
