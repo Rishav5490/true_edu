@@ -71,7 +71,7 @@ const SignupSection = () => {
           onClick={requestOTP}
           className="w-full mt-6 bg-blue-900 text-white py-2 rounded-lg hover:bg-blue-700 transition"
         >
-          Request OTP
+          Request OTP...
         </button>
       </div>
       </div>
