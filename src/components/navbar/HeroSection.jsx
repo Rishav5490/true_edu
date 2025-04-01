@@ -38,9 +38,9 @@ const HeroSection = () => {
       {/* <div className="flex flex-col md:flex-row items-center justify-between px-50 py-25 bg-blue-50   ">
         <div className="md:w-xl text-center md:text-left">
           <h1 className="text-xl font-bold text-gray-900"> */}
-      <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12 bg-blue-50 text-center md:text-left">
-        <div className="md:w-1/2">
-          <h1 className="text-3xl md:text-3xl font-bold text-gray-900">
+      <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20  py-12 bg-blue-50 text-center md:text-left">
+        <div className="md:w-1/2 ">
+          <h1 className="text-3xl md:text-3xl  font-bold text-gray-900">
             Your Journey, Our Books →
           </h1>
           <p className="text-gray-600 mt-5 text-sm md:text-base">
