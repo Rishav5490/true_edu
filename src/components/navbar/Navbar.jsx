@@ -18,10 +18,10 @@ const Navbar = () => {
   
   {/* Mobile Menu Button */}
   <button 
-    className="md:hidden text-customBlue focus:outline-none"
+    className=" text-customBlue focus:outline-none"
     onClick={() => setIsOpen(!isOpen)}
   >
-    {isOpen ? <X size={40} /> : <Menu size={40} />}
+    {isOpen ? <X size={50} /> : <Menu size={50} />}
     </button>
  
 

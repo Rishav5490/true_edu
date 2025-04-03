@@ -48,7 +48,7 @@ const ProfileDetailsForm = () => {
         </h2>
         <form
           onSubmit={handleSubmit}
-          className="grid grid-cols-1 md:grid-cols-2 gap-4"
+          className="grid grid-cols sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4"
         >
           {/* Full Name */}
           <div className="flex items-center border rounded-md p-2">
