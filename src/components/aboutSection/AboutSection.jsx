@@ -8,7 +8,7 @@ import abhishek from "/Abhishek.png";
 import rishav from "/Rishav.png";
 import rubel from "/Rubel.png";
 import pic from "/pic.png";
-import rishi from "/Rishi.jpg";
+import rishi from "/Rishi.jpg"; 
 const AboutSection = () => {
   return (
     <>

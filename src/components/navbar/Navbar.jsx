@@ -50,16 +50,17 @@ const Navbar = () => {
       placeholder="🔍 Search Book"
       className="px-3 py-2 border rounded-lg bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-500 "
     />
-    <Link to="/cart">
+
+    
       <button className="p-2 border rounded-lg bg-blue-900 text-white hover:bg-blue-700 transition">
-        🛒
+      <Link to="/cart">🛒</Link>
       </button>
-    </Link>
-    <Link to="/signup">
-      <button className="px-4 py-2 border rounded-lg bg-blue-900 text-white hover:bg-blue-700 transition">
-        SIGN IN
+ 
+    
+        <button className="px-4 py-2 border rounded-lg bg-blue-900 text-white hover:bg-blue-700 transition">
+         <Link to="/signup"> SIGN IN </Link>
       </button>
-    </Link>
+   
   </div>
 
   </div>

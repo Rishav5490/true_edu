@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import woman from "/woman-object.png";
+import { Link } from 'react-router-dom';
 
 const SignupSection = () => {
     const [mobile, setMobile] = useState({
@@ -71,7 +72,7 @@ const SignupSection = () => {
           onClick={requestOTP}
           className="w-full mt-6 bg-blue-900 text-white py-2 rounded-lg hover:bg-blue-700 transition"
         >
-          Request OTP...
+         <Link to="/otp">Request OTP...</Link> 
         </button>
       </div>
       </div>
