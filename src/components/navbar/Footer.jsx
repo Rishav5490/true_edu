@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaLinkedinIn, FaGithub, FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaLinkedinIn, FaGithub, FaXTwitter, FaSquareInstagram } from "react-icons/fa6";
 import { MdCall } from "react-icons/md";
 import { AiTwotoneMail } from "react-icons/ai";
 import { Link } from 'react-router-dom';
@@ -18,10 +18,11 @@ const Footer = () => {
             Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
           </p>
           <div className="flex gap-4 mt-4">
-            <FaXTwitter className="text-xl cursor-pointer hover:text-gray-400" />
-            <FaFacebookF className="text-xl cursor-pointer hover:text-gray-400" />
-            <FaLinkedinIn className="text-xl cursor-pointer hover:text-gray-400" />
-            <FaGithub className="text-xl cursor-pointer hover:text-gray-400" />
+          <Link to='https://x.com/?lang=en' target='blank'> <FaXTwitter  className="text-xl cursor-pointer hover:text-gray-400 " /></Link>
+          <Link to='https://facebook.com'target='blank'><FaFacebookF className="text-xl cursor-pointer hover:text-gray-400" /></Link>
+          <Link to='https://www.linkedin.com'target='blank'> <FaLinkedinIn className="text-xl cursor-pointer hover:text-gray-400" /></Link>
+          <Link to='https://github.com'target='blank'> <FaGithub className="text-xl cursor-pointer hover:text-gray-400" /></Link>
+          <Link to='https://www.instagram.com'target='blank'> <FaSquareInstagram className='text-xl cursor-pointer hover:text-gray-400' /> </Link>
           </div>
         </div>
 

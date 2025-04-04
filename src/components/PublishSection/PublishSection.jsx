@@ -8,7 +8,7 @@ const PublishSection = () => {
     <div>
       <div className="flex flex-col md:flex-row items-center justify-between  px-45 py-28 bg-blue-50   ">
         <div className="md:w-xl text-center md:text-left">
-          <h1 className="text-4xl font-bold text-gray-900">
+          <h1 className="text-3xl font-bold text-gray-900">
             Publish Your Book with Us
           </h1>
           <p className="text-gray-600 mt-8">

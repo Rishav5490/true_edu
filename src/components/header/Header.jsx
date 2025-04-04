@@ -9,10 +9,10 @@ const Header = () => {
     <>
       <div className="bg-blue-900 text-white px-20 py-3 md:px-7 ">
         <div className="flex justify-between items-center flex-wrap">
-          <h6 className="uppercase font-normal">
+          <p className="uppercase font-normal md:text-base text-sm">
             Create a brighter future by turning the pages of <Link to="/ourbooks"><u>Our books</u> </Link>{" "}
             and shape your tomorrow.
-          </h6>
+            </p>
           <div className="flex gap-4">
             <Link
               to="https://play.google.com/store/games?hl=en target='_blank'"

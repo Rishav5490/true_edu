@@ -37,9 +37,7 @@ const book = [
 const HeroSection = () => {
   return (
     <>
-      {/* <div className="flex flex-col md:flex-row items-center justify-between px-50 py-25 bg-blue-50   ">
-        <div className="md:w-xl text-center md:text-left">
-          <h1 className="text-xl font-bold text-gray-900"> */}
+      
       <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20  py-12 bg-blue-50 text-center md:text-left">
         <div className="md:w-1/2 ">
           <h1 className="text-3xl md:text-3xl  font-bold text-gray-900">
@@ -118,53 +116,6 @@ const HeroSection = () => {
           </div>
         </section>
 
-        {/* NewestAdditions */}
-        {/* <section className="p-10">
-          <div>
-            <p className="text-blue-900 font-semibold uppercase text-sm">
-              Latest Launches
-            </p>
-            <h2 className="text-3xl font-bold text-gray-900 mt-2">
-              Newest Additions to Our Collection
-            </h2>
-            <div className="flex justify-evenly mt-6 p-7 bg-gray-100 rounded-xl shadow-md">
-              <div className="bg-white rounder-lg rounded-xl shadow-md p-5">
-                <img
-                  src={book1}
-                  alt=""
-                  className="w-full h-64 object-cover rounder-lg"
-                />
-                <h3 className="font-semibold text-gray-900 mt-4">
-                  Electric Generation System
-                </h3>
-                <p className="text-gray-600 text-sm">Er. Sandeep Kumar</p>
-              </div>
-              <div className="bg-white rounder-lg rounded-xl shadow-md p-5">
-                <img
-                  src={book2}
-                  alt=""
-                  className="w-full h-64 object-cover rounder-lg"
-                />
-                <h3 className="font-semibold text-gray-900 mt-4">
-                  Electrical Machines - 1
-                </h3>
-                <p className="text-gray-600 text-sm">Dr. Nikita Gupta</p>
-              </div>
-              <div className="bg-white rounder-lg rounded-xl shadow-md p-5 ">
-                <img
-                  src={book3}
-                  alt=""
-                  className="w-full h-64  object-cover rounder-lg"
-                />
-                <h3 className="font-semibold text-gray-900 mt-4">
-                  High Voltage Engineering
-                </h3>
-                <p className="text-gray-600 text-sm">Dr. Nikita Gupta</p>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
         {/* updated latest launches */}
         <section className="p-10">
           <div className=" ">
@@ -174,7 +125,7 @@ const HeroSection = () => {
             <h2 className="text-3xl font-bold text-gray-900 mt-2  text-3xl">
               Newest Additions to Our Collection
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 mt-6  bg-gray-100 rounded-xl  ">
+            <div className="grid grid-cols sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 mt-6  bg-gray-100 rounded-xl  ">
               {book.map((book, index) => (
                 <div key={index} className="bg-white rounded-xl shadow-md p-3">
                   <img
@@ -411,16 +362,13 @@ const HeroSection = () => {
 
         {/*Reviews  */}
         <section className="bg-gray-100 p-8  shadow-md  mx-auto">
-        <h2 className="text-xl text-blue-900 font-semibold mb-2">
-        REVIEWS</h2>
+          <h2 className="text-xl text-blue-900 font-semibold mb-2">REVIEWS</h2>
           <h3 className="text-gray-900 text-3xl font-bold mb-6">
             What They Say About Us
           </h3>
           <div className=" grid md:grid-cols-1  sm:grid-cols lg:flex gap-4 ">
             <div className="bg-white  rounded-lg shadow-lg p-2 text-center ">
-            <div className="grid justify-items-center md:flex lg:flex text-center gap-5 mx-5 mt-5 hover:scale-50 transition-transform duration-200">
-
-
+              <div className="grid justify-items-center md:flex lg:flex text-center gap-5 mx-5 mt-5 hover:scale-50 transition-transform duration-200">
                 <img
                   src="/pic.png"
                   alt="User Avatar"
@@ -449,9 +397,7 @@ const HeroSection = () => {
             </div>
 
             <div className="bg-white  rounded-lg shadow-lg p-2 text-center hover:scale-105 transition-transform duration-900">
-            <div className="grid justify-items-center md:flex lg:flex text-center gap-5 mx-5 mt-5 hover:scale-50 transition-transform duration-500">
-
-
+              <div className="grid justify-items-center md:flex lg:flex text-center gap-5 mx-5 mt-5 hover:scale-50 transition-transform duration-500">
                 <img
                   src="/pic.png"
                   alt="User Avatar"
@@ -462,7 +408,6 @@ const HeroSection = () => {
               </div>
 
               <div className="bg-gray-100 p-5 rounded-lg shadow-lg mt-5 hover:scale-95 transition-transform duration-300 cursor-pointer ">
-
                 <h3 className="text-gray-900 font-bold mt-4">
                   Absolutely Thrilled with My Purchase!
                 </h3>
@@ -480,8 +425,7 @@ const HeroSection = () => {
               </div>
             </div>
             <div className="bg-white  rounded-lg shadow-lg p-2 text-center">
-            <div className="grid justify-items-center md:flex lg:flex text-center gap-5 mx-5 mt-5 hover:scale-50 transition-transform duration-900">
-
+              <div className="grid justify-items-center md:flex lg:flex text-center gap-5 mx-5 mt-5 hover:scale-50 transition-transform duration-900">
                 <img
                   src="/pic.png"
                   alt="User Avatar"
@@ -492,7 +436,6 @@ const HeroSection = () => {
               </div>
 
               <div className="bg-gray-100 p-5 rounded-lg shadow-lg mt-5 hover:scale-95 transition-transform duration-300 cursor-pointer ">
-
                 <h3 className="text-gray-900 font-bold mt-4">
                   Absolutely Thrilled with My Purchase!
                 </h3>
@@ -514,44 +457,60 @@ const HeroSection = () => {
 
         {/* F&Q's */}
         <section>
-          <div className=" mx-auto p-10">
-            <h3 className="text-blue-900 font-bold text-lg">FAQ'S</h3>
-            <h2 className="text-gray-900 text-2xl font-semibold mb-6 mt-2">
+          <div className="bg-gray-100 p-8 mt-10 rounded-lg shadow-md mx-auto">
+            <h2 className="text-2xl font-bold mb-4 text-blue-900">FAQ'S</h2>
+            <h3 className="text-gray-900 text-2xl font-bold mb-4">
               Have a question? We're here to help.
-            </h2>
-            <div className=" sm:grid-cols gap-5 ">
-              <div className="border-b border-gray-300 py-4 cursor-pointer">
-                <div className=" sm:grid flex justify-between items-center">
-                  <p className="text-gray-700 font-medium">
-                    How long does a Mommy Makeover surgery take?
-                  </p>
-                </div>
-                <p className="text-gray-600 mt-2 text-sm">
+            </h3>
+            <div className="space-y-4">
+              {/* 1 */}
+              <details className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
+                <summary className="font-semibold text-gray-900">
                   How long does a Mommy Makeover surgery take?
+                </summary>
+                <p className="mt-2 text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus vitae dolor sit! Debitis, similique id dolores,
+                  ducimus quae vel cumque nihil magnam praesentium eius,
+                  aspernatur soluta veritatis ut ad sequi.
                 </p>
-              </div>
-
-              <div className="border-b border-gray-300 py-4 cursor-pointer">
-                <div className="flex justify-between items-center">
-                  <p className="text-gray-700 font-medium">
-                    How long does a Mommy Makeover surgery take?
-                  </p>
-                </div>
-                <p className="text-gray-600 mt-2 text-sm">
+              </details>
+              {/* 2 */}
+              <details className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
+                <summary className="font-semibold text-gray-800">
                   How long does a Mommy Makeover surgery take?
+                </summary>
+                <p className="mt-2 text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus vitae dolor sit! Debitis, similique id dolores,
+                  ducimus quae vel cumque nihil magnam praesentium eius,
+                  aspernatur soluta veritatis ut ad sequi.
                 </p>
-              </div>
-
-              <div className="border-b border-gray-300 py-4 cursor-pointer">
-                <div className="flex justify-between items-center">
-                  <p className="text-gray-700 font-medium">
-                    How long does a Mommy Makeover surgery take?
-                  </p>
-                </div>
-                <p className="text-gray-600 mt-2 text-sm">
+              </details>
+              {/* 3 */}
+              <details className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
+                <summary className="font-semibold text-gray-800">
                   How long does a Mommy Makeover surgery take?
+                </summary>
+                <p className="mt-2 text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus vitae dolor sit! Debitis, similique id dolores,
+                  ducimus quae vel cumque nihil magnam praesentium eius,
+                  aspernatur soluta veritatis ut ad sequi.
                 </p>
-              </div>
+              </details>
+              {/* 4 */}
+              <details className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
+                <summary className="font-semibold text-gray-800">
+                  How long does a Mommy Makeover surgery take?
+                </summary>
+                <p className="mt-2 text-gray-500">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ducimus vitae dolor sit! Debitis, similique id dolores,
+                  ducimus quae vel cumque nihil magnam praesentium eius,
+                  aspernatur soluta veritatis ut ad sequi.
+                </p>
+              </details>
             </div>
           </div>
         </section>

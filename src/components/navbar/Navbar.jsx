@@ -10,13 +10,14 @@ const Navbar = () => {
  
 
   // !--Navbar Section-->
-  <nav className=" text-center bg-sky-100 text-cyan p-4 flex justify-evenly items-center shadow-md">
+  <nav className=" text-center bg-sky-100 text-cyan p-4 flex justify-around items-center shadow-md">
   {/* Logo */}
   <figure>
     <img src={logo} alt="logo" title="TRUE-EDUCATION" className="h-12 w-auto" />
   </figure>
   
   {/* Mobile Menu Button */}
+  <span className='lg:hidden '>
   <button 
     className=" text-customBlue focus:outline-none"
     onClick={() => setIsOpen(!isOpen)}
@@ -24,10 +25,10 @@ const Navbar = () => {
     {isOpen ? <X size={50} /> : <Menu size={50} />}
     </button>
  
-
+    </span>
   {/* Navigation Links */}
   <div className={`  md:items-center md:gap-8  lg:flex absolute md:static top-16 left-0 w-full bg-sky-100 md:w-auto md:bg-transparent p-4 md:p-0 transition-all duration-300 ${isOpen ? "block" : "hidden"}`}>
-    <ul className=" md:flex    lg:flex gap-4 md:gap-8 text-lg">
+    <ul className=" md:flex lg:flex gap-4 md:gap-8 text-lg">
       <li className="hover:bg-blue-300 transition rounded-lg p-2">
         <Link to="/publish">Publish With Us</Link>
       </li>
