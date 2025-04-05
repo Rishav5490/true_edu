@@ -68,7 +68,7 @@ const HeroSection = () => {
             <p className="text-blue-900 font-semibold uppercase text-xl ">
               Key Features
             </p>
-            <h2 className="text-3xl font-bold text-gray-900 mt-5 ">
+            <h2 className="text-3xl font-bold text-gray-900  ">
               What Makes Our Books Truly Exceptional
             </h2>
             <p className="text-gray-700 max-w-lg mt-4">

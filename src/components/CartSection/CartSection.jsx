@@ -45,11 +45,13 @@ const CartSection = () => {
           <h2 className="text-xl font-bold text-gray-700 border-b pb-2">Table of Content</h2>
           <div className="space-y-4 mt-4">
             {["Moment of Inertia", "Simple Stresses & Strains", "Shear Force and Bending Moment", "Bending and Shear Stresses in Beams", "Columns"].map((unit, index) => (
-              <div key={index} className="bg-gray-50 p-4 rounded-lg shadow-sm">
-                <h3 className="text-lg font-semibold">Unit-{index + 1} {unit}</h3>
-                <p className="text-gray-600 mt-1 text-sm">
-                  {getUnitDetails(index + 1)}
-                </p>
+              <div key={index} className="bg-blue-900 p-4 rounded-lg shadow-sm hover:bg-blue-700 transition duration-300">
+                <details className="text-gray-800 font-normal mt-1 text-md bg-cyan-100  rounded-xl p-3"> {getUnitDetails(index + 1)}
+                <summary className="text-lg font-bold text-gray-900 cursor-pointer">
+
+                  Unit-{index + 1} {unit}
+                </summary>
+                </details>
               </div>
             ))}
           </div>

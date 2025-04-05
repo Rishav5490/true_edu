@@ -37,7 +37,7 @@ const OtpLogin = () => {
 
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100 p-4">
+    <div className="flex justify-center items-center h-100vh bg-gray-100 p-4">
          <div className="hidden md:block w-1/2 max-w-md">
     <img src={woman} alt="woman-object-working" className="w-full shadow-lg w-full max-w-md" />
     </div>
@@ -82,6 +82,7 @@ const OtpLogin = () => {
       </p>
     </div>
   </div>
+  
   )
 };
 

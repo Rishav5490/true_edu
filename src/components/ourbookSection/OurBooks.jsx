@@ -124,8 +124,8 @@ const OurBooks = () => {
   return (
     <div>
          <div className="p-6 max-w-6xl mx-auto">
-        <h3 className='text-blue-800 text-lg  mb-5'>OUR BOOKS</h3>
-        <div className='flex justify-between items-center'>
+        <h2 className='text-blue-900 text-lg font-semibold mb-5'>OUR BOOKS</h2>
+        <div className='flex justify-between items-center md:flex-row flex-col'>
       <h2 className="text-3xl font-bold text-gray-900 mb-6">Explore Our Collection</h2>
       <div className="mb-4">
       <input

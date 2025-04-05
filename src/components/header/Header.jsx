@@ -7,12 +7,12 @@ import { SiWebpack } from "react-icons/si";
 const Header = () => {
   return (
     <>
-      <div className="bg-blue-900 text-white px-20 py-3 md:px-7 ">
-        <div className="flex justify-between items-center flex-wrap">
-          <p className="uppercase font-normal md:text-base text-sm">
+      <div className="bg-gradient-to-b from-blue-900 to-blue-900  text-white md:px-20 px-3 py-3 ">
+        <div className="items-center flex flex-col gap-2">
+          <h6 className="uppercase font-normal md:text-base text-sm  text-center sm:text-left  md:text-lg  items-center">
             Create a brighter future by turning the pages of <Link to="/ourbooks"><u>Our books</u> </Link>{" "}
             and shape your tomorrow.
-            </p>
+            </h6>
           <div className="flex gap-4">
             <Link
               to="https://play.google.com/store/games?hl=en target='_blank'"

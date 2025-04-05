@@ -42,7 +42,7 @@ const ProfileDetailsForm = () => {
 
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
-      <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-2xl">
+      <div className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-4xl ">
         <h2 className="text-3xl font-semibold text-gray-900 text-center mb-4">
           Enter Profile Details
         </h2>

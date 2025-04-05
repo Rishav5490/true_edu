@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FaBullseye, FaEye, FaCheckCircle } from "react-icons/fa";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaBookReader, FaCloudDownloadAlt, FaSyncAlt } from "react-icons/fa";
@@ -12,10 +13,10 @@ import rishi from "/Rishi.jpg";
 const AboutSection = () => {
   return (
     <>
-    <section className="bg-smoke-100 rounded-2xl   shadow-lg mx-20 ">
+    <section className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-8xl items-center mx-auto ">
     <section className="bg-white-100 text-white mt-10 gap-20 p-5 md:px-20 flex flex-col md:flex-row items-center justify-around">
       <div className="md:w-1/2 space-y-6">
-      <h3 className="text-sm text-blue-600 font-semibold">ABOUT</h3>
+      <h2 className="text-lg text-blue-900 font-semibold">ABOUT</h2>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-600">Welcome to True-Edu Publications</h2>
         <p className="text-gray-600">
           At True-Edu Publications, our passion lies in empowering students with
@@ -97,10 +98,10 @@ const AboutSection = () => {
     </section>
 
     {/* TeamMembers */}
-    <section className="py-12 px-6 md:px-20 bg-gray-100">
-    <h3 className="text-sm text-blue-600 font-semibold mb-4">OUR TEAM</h3>
+    <section className="p-10 md:px-20 bg-gray-200  items-center">
+    <h2 className="text-lg text-blue-900 font-semibold mb-4">OUR TEAM</h2>
       <h2 className="text-3xl font-bold  text-gray-900">Meet the Minds Behind the Mission</h2>
-      <div className="mt-8 flex flex-wrap justify-between gap-6">
+      <div className="mt-8 flex flex-wrap justify-between  p-6 gap-6">
           <div
             className="bg-white rounded-2xl shadow-lg p-6 w-80 flex flex-col items-center"
           >
@@ -112,8 +113,8 @@ const AboutSection = () => {
             <h3 className="text-xl font-semibold">Abishek</h3>
             <p className="text-gray-600">Founder & CEO</p>
             <div className="mt-4 flex gap-4">
-              <FaLinkedin className="text-blue-700 text-2xl cursor-pointer" />
-              <FaInstagram className="text-pink-500 text-2xl cursor-pointer" />
+            <Link to="https://www.linkedin.com/in/abhishek-sharma-507757167/" target='_blank' > <FaLinkedin  className="text-blue-700 text-2xl cursor-pointer" /></Link> 
+            <Link to="https://www.instagram.com/abhisheksharma4587/" target='_blank'  > <FaInstagram className="text-pink-500 text-2xl cursor-pointer"  /></Link>
             </div>
           </div>
           <div
@@ -127,8 +128,8 @@ const AboutSection = () => {
             <h3 className="text-xl font-semibold">Rishav Kumar</h3>
             <p className="text-gray-600">Software Developer</p>
             <div className="mt-4 flex gap-4">
-              <FaLinkedin className="text-blue-700 text-2xl cursor-pointer" />
-              <FaInstagram className="text-pink-500 text-2xl cursor-pointer" />
+            <Link to="https://www.linkedin.com/in/rishav-kumar-0ba203191/" target='_blank' > <FaLinkedin  className="text-blue-700 text-2xl cursor-pointer" /></Link> 
+            <Link to="https://www.instagram.com/01rishavthakur__/?next=%2F" target='_blank'  > <FaInstagram className="text-pink-500 text-2xl cursor-pointer"  /></Link>
             </div>
           </div>
           <div
@@ -142,8 +143,8 @@ const AboutSection = () => {
             <h3 className="text-xl font-semibold">Rubel Singh Thakur</h3>
             <p className="text-gray-600">Head of Editorial</p>
             <div className="mt-4 flex gap-4">
-              <FaLinkedin  className="text-blue-700 text-2xl cursor-pointer"><a href="https://www.linkedin.com/in/rishav-kumar-0ba203191/" /> </FaLinkedin>
-              <FaInstagram className="text-pink-500 text-2xl cursor-pointer"><a href="https://www.instagram.com/01rishavthakur__/?next=%2F" /></FaInstagram>
+              <Link to="https://www.linkedin.com/in/rubel-singh-846725273/"target='_blank'  > <FaLinkedin  className="text-blue-700 text-2xl cursor-pointer" target="_blank" /></Link> 
+              <Link to="https://www.instagram.com/_._rubel_._._/"target='_blank'  > <FaInstagram className="text-pink-500 text-2xl cursor-pointer" target='blank' /></Link>
             </div>
           </div>
       </div>
@@ -151,34 +152,34 @@ const AboutSection = () => {
 
     {/* Expertise */}
     <section className="py-12 px-6 md:px-20 bg-gray-100">
-    <h3 className="text-sm text-blue-600 font-semibold mb-4">EXPERTISE</h3>
+    <h2 className="text-lg text-blue-900 font-semibold mb-4">EXPERTISE</h2>
       <h2 className="text-3xl font-bold  text-gray-900">Why Choose True-Edu?</h2>
-      <div className="mt-8 flex flex-wrap justify-between gap-6">
+      <div className="mt-8 flex flex-wrap justify-between gap-6 p-6">
     
           <div
             
-            className="bg-white rounded-2xl shadow-lg p-6 w-80 flex flex-col items-start"
+            className="bg-white rounded-2xl shadow-lg p-6 w-80 flex flex-col items-start "
           >
-            <div className="mb-4"><FaBookReader className="text-blue-700 text-3xl" /></div>
+            <div className="mb-4"><FaBookReader className="text-blue-900 text-3xl" /></div>
             <h3 className="text-xl font-semibold">Smart Recommendations</h3>
-            <p className="text-gray-600 mt-2">Get personalized book suggestions based on your reading history and interests.</p>
+            <p className="text-gray-900 mt-2">Get personalized book suggestions based on your reading history and interests.</p>
           </div>
           <div
             
             className="bg-white rounded-2xl shadow-lg p-6 w-80 flex flex-col items-start"
           >
-            <div className="mb-4"><FaCloudDownloadAlt className="text-blue-700 text-3xl" /></div>
+            <div className="mb-4"><FaCloudDownloadAlt className="text-blue-900 text-3xl" /></div>
             <h3 className="text-xl font-semibold">Offline Reading</h3>
-            <p className="text-gray-600 mt-2">Download books for offline access. Read anywhere, anytime, without internet.</p>
+            <p className="text-gray-900 mt-2">Download books for offline access. Read anywhere, anytime, without internet.</p>
           </div>
     
           <div
             
             className="bg-white rounded-2xl shadow-lg p-6 w-80 flex flex-col items-start"
           >
-            <div className="mb-4"><FaSyncAlt className="text-blue-700 text-3xl" /></div>
+            <div className="mb-4"><FaSyncAlt className="text-blue-900 text-3xl" /></div>
             <h3 className="text-xl font-semibold">Seamless Sync</h3>
-            <p className="text-gray-600 mt-2">Continue reading from where you left off across all your devices.</p>
+            <p className="text-gray-900 mt-2">Continue reading from where you left off across all your devices.</p>
           </div>
     
     
@@ -189,20 +190,20 @@ const AboutSection = () => {
     <section className="bg-gray-100 py-12">
           <div className="bg-gray-100 p-15  md:px-20">
             {/* Section Header */}
-            <h3 className="text-sm text-blue-600 font-semibold">AUTHORS</h3>
+            <h3 className="text-lg text-blue-900 font-semibold">AUTHORS</h3>
             <h2 className="text-3xl font-bold text-gray-900 mt-2">
               Creators of the Collection
             </h2>
 
             {/* Carousel Section */}
-            <div className="relative mt-8">
-              <div className="flex gap-6 overflow-x-auto scrollbar-hide justify-evenly">
+            <div className="mt-8">
+              <div className="flex gap-6 overflow-x-auto  justify-evenly">
                 <div className=" bg-white p-6 rounded-lg shadow-lg flex flex-col items-center w-80 min-w-[80%] md:min-w-[30%] transition-transform duration-300">
                   <div className="flex items-center gap-10">
                     <img
                       src={pic}
                       alt="Author- img"
-                      className="w-16 h-16 rounded-full mb-4"
+                      className="min-w-10 h-16 rounded-full mb-4"
                     />
                     <div>
                       <h3 className="text-lg font-bold">James Anderson</h3>
@@ -221,7 +222,7 @@ const AboutSection = () => {
                     <img
                       src={rishi}
                       alt="Author- img"
-                      className="w-16 h-16 rounded-full mb-4"
+                      className="min-w-10 h-16 rounded-full mb-4"
                     />
                     <div>
                       <h3 className="text-lg font-bold">Rishav Kumar</h3>
@@ -242,7 +243,7 @@ const AboutSection = () => {
                     <img
                       src={pic}
                       alt="Author- img"
-                      className="w-16 h-16 rounded-full mb-4"
+                      className=" min-w-10 h-16 rounded-full mb-4"
                     />
                     <div>
                       <h3 className="text-lg font-bold">James Anderson</h3>
@@ -263,7 +264,7 @@ const AboutSection = () => {
                     <img
                       src="/pic.png"
                       alt="Author- img"
-                      className="w-16 h-16 rounded-full mb-4"
+                      className="min-w-10 h-16 rounded-full mb-4"
                     />
                     <div>
                       <h3 className="text-lg font-bold">James Anderson</h3>
@@ -282,7 +283,7 @@ const AboutSection = () => {
                     <img
                       src="/Rishi.jpg"
                       alt="Author- img"
-                      className="w-16 h-16 rounded-full mb-4"
+                      className="min-w-10 h-16 rounded-full mb-4"
                     />
                     <div>
                       <h3 className="text-lg font-bold">Rishav Kumar</h3>
@@ -303,7 +304,7 @@ const AboutSection = () => {
                     <img
                       src="/pic.png"
                       alt="Author- img"
-                      className="w-16 h-16 rounded-full mb-4"
+                      className="min-w-10 h-16 rounded-full mb-4"
                     />
                     <div>
                       <h3 className="text-lg font-bold">James Anderson</h3>
@@ -320,16 +321,17 @@ const AboutSection = () => {
               </div>
 
               {/* Navigation Arrows */}
-              <div className="absolute top-1/2 -left-6 transform -translate-y-1/2">
+              {/* <div className="  -left-6 transform -translate-y-1/2">
                 <button className="p-2 bg-gray-200 rounded-full hover:bg-gray-300">
                   <FaArrowLeft />
                 </button>
-              </div>
+             
               <div className="absolute top-1/2 -right-6 transform -translate-y-1/2">
                 <button className="p-2 bg-gray-200 rounded-full hover:bg-gray-300">
                   <FaArrowRight />
                 </button>
               </div>
+              </div> */}
             </div>
           </div>
         </section>
