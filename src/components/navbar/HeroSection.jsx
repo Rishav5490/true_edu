@@ -37,7 +37,6 @@ const book = [
 const HeroSection = () => {
   return (
     <>
-      
       <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20  py-12 bg-blue-50 text-center md:text-left">
         <div className="md:w-1/2 ">
           <h1 className="text-3xl md:text-3xl  font-bold text-gray-900">
@@ -465,10 +464,10 @@ const HeroSection = () => {
             <div className="space-y-4">
               {/* 1 */}
               <details className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
-                <summary className="font-semibold text-gray-900">
+                <summary className="font-semibold text-gray-900 hover:text-blue-900">
                   How long does a Mommy Makeover surgery take?
                 </summary>
-                <p className="mt-2 text-gray-500">
+                <p className="mt-2 text-gray-500 hover:text-blue-600 scale-102 transition-transform duration-300 cursor-pointer">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Ducimus vitae dolor sit! Debitis, similique id dolores,
                   ducimus quae vel cumque nihil magnam praesentium eius,
@@ -477,10 +476,10 @@ const HeroSection = () => {
               </details>
               {/* 2 */}
               <details className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
-                <summary className="font-semibold text-gray-800">
+                <summary className="font-semibold text-gray-900 hover:text-blue-900">
                   How long does a Mommy Makeover surgery take?
                 </summary>
-                <p className="mt-2 text-gray-500">
+                <p className="mt-2 text-gray-500 hover:text-blue-600 scale-102 transition-transform duration-300 cursor-pointer">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Ducimus vitae dolor sit! Debitis, similique id dolores,
                   ducimus quae vel cumque nihil magnam praesentium eius,
@@ -489,10 +488,10 @@ const HeroSection = () => {
               </details>
               {/* 3 */}
               <details className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
-                <summary className="font-semibold text-gray-800">
+                <summary className="font-semibold text-gray-900 hover:text-blue-900">
                   How long does a Mommy Makeover surgery take?
                 </summary>
-                <p className="mt-2 text-gray-500">
+                <p className="mt-2 text-gray-500 hover:text-blue-600 scale-102 transition-transform duration-300 cursor-pointer">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Ducimus vitae dolor sit! Debitis, similique id dolores,
                   ducimus quae vel cumque nihil magnam praesentium eius,
@@ -501,10 +500,10 @@ const HeroSection = () => {
               </details>
               {/* 4 */}
               <details className="bg-white p-4 rounded-lg shadow-md cursor-pointer">
-                <summary className="font-semibold text-gray-800">
+                <summary className="font-semibold text-gray-900 hover:text-blue-900">
                   How long does a Mommy Makeover surgery take?
                 </summary>
-                <p className="mt-2 text-gray-500">
+                <p className="mt-2 text-gray-500 hover:text-blue-600 scale-102 transition-transform duration-300 cursor-pointer">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Ducimus vitae dolor sit! Debitis, similique id dolores,
                   ducimus quae vel cumque nihil magnam praesentium eius,
