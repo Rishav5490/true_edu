@@ -47,7 +47,7 @@ const LoginSection = () => {
         </form>
         <p className="mt-6 text-center text-sm text-gray-900">
           Don't have an account?{" "}
-          <a href="#" className="text-blue-800 hover:underline">
+          <a href="/signup" className="text-blue-800 hover:underline">
             Sign up
           </a>
         </p>

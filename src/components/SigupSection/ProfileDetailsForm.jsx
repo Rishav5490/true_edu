@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   FaUser,
   FaEnvelope,
@@ -170,7 +171,7 @@ const ProfileDetailsForm = () => {
             type="submit"
             className="col-span-2 bg-blue-900 text-white py-2 rounded-md hover:bg-blue-700 text-center"
           >
-            Submit Details
+            <Link to="/login">Submit Details</Link> 
           </button>
         </form>
       </div>
