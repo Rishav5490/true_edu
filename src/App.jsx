@@ -11,6 +11,7 @@ import ExploreBooks from './pages/ExploreBooks';
 import Cart from './pages/Cart';
 import Otp from './pages/Otp';
 import ProfileForm from './pages/ProfileForm';
+import  LogIn  from './pages/LogIn';
 
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/policy" element={<PolicyPrivacy />} />
           <Route path="/privacy" element={<PolicyPrivacy />} />
           <Route path="/ourbooks" element={<ExploreBooks />} />
+          <Route path="/login" element={<LogIn />} />
 
 
        
