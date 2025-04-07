@@ -11,7 +11,7 @@ const LoginSection = () => {
         <form className="space-y-5">
           <div>
             <label className="block text-sm font-medium text-gray-900 mb-1">
-              Email
+              Email...
             </label>
             <input
               type="email"
@@ -21,7 +21,7 @@ const LoginSection = () => {
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-900 mb-1">
-              Password
+              Password...
             </label>
             <input
               type="password"
@@ -35,7 +35,7 @@ const LoginSection = () => {
               <span>Remember me</span>
             </label>
             <a href="#" className="text-blue-500 hover:underline">
-              Forgot Password?
+              Forgot Password...?
             </a>
           </div>
           <button
@@ -46,7 +46,7 @@ const LoginSection = () => {
           </button>
         </form>
         <p className="mt-6 text-center text-sm text-gray-900">
-          Don't have an account?{" "}
+          Don't have an account...?{" "}
           <a href="/signup" className="text-blue-800 hover:underline">
             Sign up
           </a>
