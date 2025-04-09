@@ -71,7 +71,7 @@ const OtpLogin = () => {
         <Link to='/profile'>Verify OTP...</Link>
       </button>
       <p className="text-center text-sm text-gray-500 mt-4">
-        Didn't receive the code? {timer === 0 && (
+        Didn't receive the code..S? {timer === 0 && (
           <span
             className="text-blue-900 font-semibold cursor-pointer"
             onClick={handleResendOTP}
