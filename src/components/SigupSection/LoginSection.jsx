@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const LoginSection = () => {
   return (
@@ -42,7 +43,7 @@ const LoginSection = () => {
             type="submit"
             className="w-full bg-blue-900 text-white py-2 rounded-lg hover:bg-blue-700 transition-all"
           >
-            Login
+           <Link to="/home"> Login </Link>
           </button>
         </form>
         <p className="mt-6 text-center text-sm text-gray-900">

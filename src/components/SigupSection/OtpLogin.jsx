@@ -45,7 +45,7 @@ const OtpLogin = () => {
     <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
       <h2 className="text-lg font-semibold text-gray-800 text-center mb-2">Login/Signup with OTP</h2>
       <p className="text-gray-500 text-center text-sm mb-4">
-        We have sent the verification code to your mobile <number styleName={}></number> <br />
+        We have sent the verification code to your mobile <number styleName=""></number> <br />
         <span className="font-semibold">+91 8295-017183 </span> <span className="text-blue-900 font-semibold cursor-pointer">Change</span>
       </p>
       <div className="flex justify-center space-x-2 mb-4">
@@ -71,7 +71,7 @@ const OtpLogin = () => {
         <Link to='/profile'>Verify OTP...</Link>
       </button>
       <p className="text-center text-sm text-gray-500 mt-4">
-        Didn't receive the code..S? {timer === 0 && (
+        Didn't receive the code..? {timer === 0 && (
           <span
             className="text-blue-900 font-semibold cursor-pointer"
             onClick={handleResendOTP}

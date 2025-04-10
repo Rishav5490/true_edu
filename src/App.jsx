@@ -21,7 +21,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
 
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/layout" element={<Layout />} />
           <Route path="/publish" element={<PublishWithUs />} /> 
@@ -33,7 +33,7 @@ const App = () => {
           <Route path="/policy" element={<PolicyPrivacy />} />
           <Route path="/privacy" element={<PolicyPrivacy />} />
           <Route path="/ourbooks" element={<ExploreBooks />} />
-          <Route path="/login" element={<LogIn />} />
+          <Route path="/" element={<LogIn />} />
 
 
        
