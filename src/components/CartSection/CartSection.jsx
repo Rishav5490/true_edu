@@ -36,7 +36,7 @@ const CartSection = () => {
             <p className="text-gray-800"><strong>Edition:</strong> First Edition</p>
             <p className="text-gray-800"><strong>ISBN:</strong> 978-81-962529-7-7</p>
             <button className="bg-blue-900 text-white px-4 py-2 rounded-xl hover:bg-blue-700 transition">
-              Add To Cart
+              Add To Cart.
             </button>
           </div>
         </div>
