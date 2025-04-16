@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-gray-500 mt-6 pt-4 text-center text-sm">
-        <p>© Copyright 2024, All Rights Reserved by TrueEdu Publications</p>
+        <p>© Copyright 2025, All Rights Reserved by TrueEdu Publications</p>
         <div className="flex justify-center gap-6 mt-2">
           <span className="hover:underline cursor-pointer"><Link to="">Terms & Conditions</Link></span>
           <span className="hover:underline cursor-pointer"><Link to ="/privacy">Privacy Policy</Link></span>
