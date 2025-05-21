@@ -15,7 +15,7 @@ const Footer = () => {
         <div>
           <h2 className="text-2xl font-bold">True-Edu <span className="block text-lg font-light">Publications</span></h2>
           <p className="mt-3 text-sm max-w-sm">
-            Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+            Lorem  ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups are avilable in this section.
           </p>
           <div className="flex gap-4 mt-4">
           <Link to='https://x.com/?lang=en' target='blank'> <FaXTwitter  className="text-xl cursor-pointer hover:text-gray-400 " /></Link>
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-gray-500 mt-6 pt-4 text-center text-sm">
-        <p>© Copyright 2025, All Rights Reserved by TrueEdu Publications..</p>
+        <p>© Copyright 2025, All Rights Reserved by TrueEdu Publications...</p>
         <div className="flex justify-center gap-6 mt-2">
           <span className="hover:underline cursor-pointer"><Link to="">Terms & Conditions</Link></span>
           <span className="hover:underline cursor-pointer"><Link to ="/privacy">Privacy Policy</Link></span>
